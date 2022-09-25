@@ -1,3 +1,5 @@
-Access token:
 
-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
+
+* rock D Johnson image from https://theprofile.substack.com/
+* rules image from https://puzzlewocky.com/
+* png icons for game frompngwing.com
