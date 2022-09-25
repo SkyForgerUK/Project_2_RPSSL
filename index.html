@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,38 +10,42 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>RPSSL</title>
 </head>
+
 <body>
-    <header>
-        <div>
+    <nav class="heading">
+        <div class="heading-content">
             <h1>RPSLS</h1>
         </div>
-        <div>
+        <div id="rules" class="heading-content">
             <h2>Rules</h2>
         </div>
-    </header>
+    </nav>
+    <section class="game-area">
+        <div id="score-area">
+            <p class="score">Your Score: <span id="correct-score">0</span></p>
+            <p class="score">Opponent Score: <span id="incorrect-score">0</span></p>
+        </div>        
+            <div class="chosen-cards-area">
+                <span class="chosen-cards" id="your-card">pic from pexels</span>
+                <span class="chosen-cards" id="opponent-card">pic from pexels</span>
+            </div>
+            <div class="interaction-text-area">
+                <p class="interaction-text">Ready? Chose your card!</p>
+            </div>
 
-    <div>
-        <p class="score">Your Score: <span id="correct-score">0</span></p>
-        <p class="score">Opponent Score: <span id="incorrect-score">0</span></p>
-        <div>
-            <span class="chosen-cards" id="your-card"></span>
-            <span class="chosen-cards" id="opponent-card"></span>
-        </div>
-        <div>
-            <p>Ready? Chose your card!</p>
-        </div>
-    </div>
 
-    <div>
-        <button><img src="assets/images/.." alt="Choose this to play 'Rock'"></button>
-        <button><img src="assets/images/.." alt="Choose this to play 'Paper'"></button>
-        <button><img src="assets/images/.." alt="Choose this to play 'Scissors'"></button>
-        <button><img src="assets/images/.." alt="Choose this to play 'Lizard'"></button>
-        <button><img src="assets/images/.." alt="Choose this to play 'Spock'"></button>
-    </div>
+        <div class="button-div">
+            <button class="button"><img src="assets/images/.." alt="Choose this to play 'Rock'"></button>
+            <button class="button"><img src="assets/images/.." alt="Choose this to play 'Paper'"></button>
+            <button class="button"><img src="assets/images/.." alt="Choose this to play 'Scissors'"></button>
+            <button class="button"><img src="assets/images/.." alt="Choose this to play 'Lizard'"></button>
+            <button class="button"><img src="assets/images/.." alt="Choose this to play 'Spock'"></button>
+        </div>
+    </section>
 
 
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

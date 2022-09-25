@@ -1,3 +1,98 @@
+
+
+*,
+*::before,
+*::after {
+     box-sizing: border-box;
+     margin: 0.1%;
+     padding: 0.1%;
+}     
+
+/* ---- global style */
 body {
     background-color: antiquewhite;
+    margin: 1%;
+}
+
+/* --------- Heading */
+
+.heading {
+    background-color: aqua;
+    display: inline-block;
+    padding: 0.3rem;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+
+#rules {
+    background-color: brown;
+    align-items: flex-end;
+    float: right;
+}
+
+.heading-content {
+    display: inline-block;
+}
+
+.game-area {
+    background-color: aquamarine;
+}
+
+#score-area {
+    width: 100%;   
+    background-color: blueviolet;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.score {
+    display: inline-block;
+    width: 96%;
+    margin: 1% 2%;
+    
+}
+
+.chosen-cards-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+
+.chosen-cards {
+    width: 50%;
+    text-align: center;
+}
+
+.interaction-text-area {
+    width: 100%;
+    background-color: rgb(54, 235, 54);
+    margin: 1% 0;
+    padding: 0 20%;
+}
+
+.interaction-text {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: bisque;
+    
+}
+
+
+.button-div {
+    display: inline-block;
+    margin: .2rem 0;
+    padding: 0 10%;
+}
+
+.button {
+    width: 100%;
+    padding-bottom: 0.1rem;
+    margin: 1% 0;
 }
