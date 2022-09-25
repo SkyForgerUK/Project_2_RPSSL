@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rock Paper Scissors Lizard Spock Game">
+    <meta name="keywords" content="rock, paper, scissors, lizard, spock, game">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>RPSSL</title>
 </head>
 <body>
-    <p>Does the remote push work?</p>
+    <header>
+        <div>
+            <h1>RPSLS</h1>
+        </div>
+        <div>
+            <h2>Rules</h2>
+        </div>
+    </header>
+
+    <div>
+        <p class="score">Your Score: <span id="correct-score">0</span></p>
+        <p class="score">Opponent Score: <span id="incorrect-score">0</span></p>
+        <div>
+            <span class="chosen-cards" id="your-card"></span>
+            <span class="chosen-cards" id="opponent-card"></span>
+        </div>
+        <div>
+            <p>Ready? Chose your card!</p>
+        </div>
+    </div>
+
+    <div>
+        <button>Rock</button>
+        <button>Paper</button>
+        <button>Scissors</button>
+        <button>Lizard</button>
+        <button>Spock</button>
+    </div>
+
+
 
     <script src="assets/js/script.js"></script>
 </body>
