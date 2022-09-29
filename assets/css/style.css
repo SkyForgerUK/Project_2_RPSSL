@@ -59,18 +59,6 @@ body {
     
 }
 
-#your-card {
-    background-image: url('../images/question-mark-resized.jpg');
-
-    background-size: contain;
-    background-image: center center no-repeat; 
-    background-size: 100% 100%;
-}
-
-#opponent-card {
-    background-image: url('../images/question-mark-resized.jpg');
-}
-
 .chosen-cards-area {
     width: 100%;
     display: flex;
@@ -78,14 +66,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: azure;
+    padding: 1% 4%;
 }
 
 .chosen-cards {
-    width: 46%;
+    width: 50%;
     height: auto;
-    padding: 0 1%;
+    padding: 0 4%;
     text-align: center;
-    background-size: 30% 10%;
+}
+
+.question-card {
+    width: 100%;
+    height: auto;
 }
 
 .interaction-text-area {
@@ -110,30 +103,6 @@ body {
     padding: 0 1%;
 
 }
-
-/* #rock {
-    background-image: url('../images/rock-hand.png');
-}
-
-#paper {
-    background-image: url('../images/paper-hand.png');
-}
-
-#scissors {
-    background-image: url('../images/scissors-hand.png');
-}
-
-#lizard {
-    background-image: url('../images/lizard-hand.png');
-    padding-left: 10vw;
-}
-
-#spock {
-    background-image: url('../images/spock-hand.png');
-} */
-
-
-
 
 
 .button {
