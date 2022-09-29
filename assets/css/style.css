@@ -56,6 +56,7 @@ body {
     display: inline-block;
     width: 96%;
     margin: 1% 2%;
+    font-size: larger;
     
 }
 
@@ -81,8 +82,14 @@ body {
     height: auto;
 }
 
+.chosen-cards>p {
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .interaction-text-area {
     width: 100%;
+
     background-color: rgb(54, 235, 54);
     margin: 1% 0;
     padding: 0 20%;
@@ -90,6 +97,7 @@ body {
 
 .interaction-text {
     width: 100%;
+    height: 10vh;
     text-align: center;
     border: 1px solid black;
     background-color: bisque;
