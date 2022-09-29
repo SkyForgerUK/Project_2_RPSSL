@@ -59,8 +59,20 @@ body {
     
 }
 
+#your-card {
+    background-image: url('../images/question-mark-resized.jpg');
+
+    background-size: contain;
+    background-image: center center no-repeat; 
+    background-size: 100% 100%;
+}
+
+#opponent-card {
+    background-image: url('../images/question-mark-resized.jpg');
+}
+
 .chosen-cards-area {
-    width: 50px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -73,6 +85,7 @@ body {
     height: auto;
     padding: 0 1%;
     text-align: center;
+    background-size: 30% 10%;
 }
 
 .interaction-text-area {
@@ -92,13 +105,13 @@ body {
 
 
 .button-div {
-    display: content;
-    margin: .2rem 0;
-    padding: 0 10%;
+    display: flex;
+    margin: .1rem 0;
+    padding: 0 1%;
 
 }
 
-#rock {
+/* #rock {
     background-image: url('../images/rock-hand.png');
 }
 
@@ -117,7 +130,8 @@ body {
 
 #spock {
     background-image: url('../images/spock-hand.png');
-}
+} */
+
 
 
 
@@ -126,13 +140,14 @@ body {
     cursor: pointer;
     border: none;
     outline: none;
+    background: none;
+    max-width: 20%;
+    height: auto;
+}
 
-
-
-    width: 20vw;
-    height: 10vh;
-    background-image: center center no-repeat; 
-    background-size: 100% 100%;
+.btn-image {
+    width: 100%;
+    height: auto;
 }
 
 
