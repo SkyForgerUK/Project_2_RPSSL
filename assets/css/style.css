@@ -9,9 +9,13 @@
 }     
 
 /* ---- global style */
+
+
 body {
     background-color: antiquewhite;
     margin: 1%;
+    max-height: 100vh;
+    padding: 0;
 }
 
 /* --------- Heading */
@@ -56,7 +60,7 @@ body {
 }
 
 .chosen-cards-area {
-    width: 100%;
+    width: 50px;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -65,7 +69,9 @@ body {
 }
 
 .chosen-cards {
-    width: 50%;
+    width: 46%;
+    height: auto;
+    padding: 0 1%;
     text-align: center;
 }
 
@@ -86,13 +92,47 @@ body {
 
 
 .button-div {
-    display: inline-block;
+    display: content;
     margin: .2rem 0;
     padding: 0 10%;
+
 }
 
-.button {
-    width: 100%;
-    padding-bottom: 0.1rem;
-    margin: 1% 0;
+#rock {
+    background-image: url('../images/rock-hand.png');
 }
+
+#paper {
+    background-image: url('../images/paper-hand.png');
+}
+
+#scissors {
+    background-image: url('../images/scissors-hand.png');
+}
+
+#lizard {
+    background-image: url('../images/lizard-hand.png');
+    padding-left: 10vw;
+}
+
+#spock {
+    background-image: url('../images/spock-hand.png');
+}
+
+
+
+
+.button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+
+
+    width: 20vw;
+    height: 10vh;
+    background-image: center center no-repeat; 
+    background-size: 100% 100%;
+}
+
+
