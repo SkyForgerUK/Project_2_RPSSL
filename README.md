@@ -107,11 +107,57 @@ Simple and crisp design
         - rgb(0, 0, 0) - black - with various opacity levels for transparent backgrounds
 
 
-### 6.  <!--Remove line-->
 
 ## Wireframes
 
-@@ -348,7 +345,7 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
+<details>
+  <summary>Desktop</summary>
+   ![Desktop Wireframes](add desktop wireframes) 
+   ![Desktop Wireframes](add desktop wireframe 2) 
+  <details>
+  <summary>Desktop Wireframes PDF</summary>
+  
+   [Desktop Wireframes PDF](add pdf) 
+  </details>
+</details>
+<details>
+  <summary>Mobile</summary>
+   ![Mobile Wireframes](add mobile ) 
+   ![Mobile Wireframes](add mobile 2) 
+  <details>
+  <summary>Mobile Wireframes PDF</summary>
+  
+   [Mobile Wireframes PDF](add mobile pdf) 
+  </details>
+</details>
+## Technology
+-__Languages__
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS) 
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) ---------------------------- 
+-__Software and Framework Libraries__
+- [Balsamiq Wireframes](https://balsamiq.com/)
+    - To create wireframe design outlay
+- [Google Fonts](https://fonts.google.com/)
+    - To acquire 'Lato' and 'Merriweather' font to use on the site
+- [Clean css](https://www.cleancss.com/css-beautify/) 
+    - CSS formatting tool
+- [Google rgb color picker](https://www.google.com/search?q=rgb+color+picker&rlz=1C1GCEB_enGB1012GB1012&oq=rgb+color&aqs=chrome.0.0i433i512j69i57j0i512l8.3968j0j7&sourceid=chrome&ie=UTF-8)
+    - For choosing the colors for the whole site
+- [Font Awesome](https://fontawesome.com/)
+    - For adding icons to Home and Mr. Pancake pages
+- [W3C Markup Validator](https://validator.w3.org/) 
+    - To validate the HTML code across all pages
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - To validate the CSS
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+   - To review code and test it during the development process
+- [Multi device mock-up generator](https://techsini.com/multi-mockup/)
+    - To generate a mock-up image for the Readme file
+- [Google Maps](https://www.google.co.uk/maps)
+    - To get the embedded maps for Locations page
+- [GitHub](https://github.com/)
+    - To store the project and host the finished site
 - [GitPod](https://www.gitpod.io/)
     - To use as a platform for coding
 
