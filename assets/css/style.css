@@ -38,13 +38,6 @@ body {
     font-size: 6vw;
 }
 
-#rules {
-    background-color: brown;
-    align-items: flex-end;
-    float: right;
-}
-
-
 .game-area {
     background-color: aquamarine;
 }
@@ -61,7 +54,7 @@ body {
     display: inline-block;
     width: 96%;
     margin: 1% 2%;
-    font-size: 4vw;
+    font-size: 5vw;
     
 }
 
@@ -105,9 +98,7 @@ body {
     text-align: center;
     border: 1px solid black;
     background-color: bisque;
-    font-size: 6vw;
-
-    
+    font-size: 6vw;  
 }
 
 
