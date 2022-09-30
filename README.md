@@ -114,8 +114,8 @@ Simple easy to use design
 
   <summary>Desktop</summary>
 
-   ![Desktop Wireframes](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-desktop.jpg) 
-   ![Desktop Wireframes](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-desktop-pop-up.jpg)
+   ![Desktop Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-desktop.jpg) 
+   ![Desktop Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-desktop-pop-up.jpg)
 
 </details>
 
@@ -123,8 +123,8 @@ Simple easy to use design
 
   <summary>Mobile</summary>
 
-   ![Mobile Wireframes](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-mobile.jpg) 
-   ![Mobile Wireframes](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-mobile-pop-up.jpg) 
+   ![Mobile Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-mobile.jpg) 
+   ![Mobile Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-mobile-pop-up.jpg) 
 
 </details>
 
@@ -132,7 +132,7 @@ Simple easy to use design
 
   <summary>Wireframes PDF</summary>
   
-   [Wireframes PDF](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-full.pdf) 
+   [Wireframes PDF](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-full.pdf) 
 
 </details>
 
@@ -388,7 +388,8 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
     - use this link to access the, now published, website
 <details>
   <summary>Link Page screenshot</summary>
-   ![Contact Us](https://github.com/SkyForgerUK/###add link)
+
+   ![Contact Us](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-publish-page-screenshot.jpg)
   
 </details> 
 <br>   
