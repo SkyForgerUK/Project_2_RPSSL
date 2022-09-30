@@ -89,22 +89,22 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 ## Typografy and color scheme
 ### Design
-Simple and crisp design
+Simple easy to use design
  
----------------------------------------------------------------------------------------------------------------------------------------------- 
+
 - __Fonts__:
-    - Merriweather - used as a base font on the whole site
-    - Lato - used for most headers and to give a bit of visual diversity
+    - ###Choose font - used as a base font on the whole site
+    - ####choose - used for most headers and to give a bit of visual diversity
   - __Color Scheme__:  
     - Primary color:
-    ![Primary color](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/color-primary.jpg)
+    ![Primary color](https:/###add primary color snip)
     - Secondary color:
-    ![Secondary color](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/color-secondary.jpg)
-    - Hero image cover text background color with opacity of .7:
-    ![Third color](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/color-third.jpg)
+    ![Secondary color](https:/### add secondary color snip)
+    - Pop-up background color:
+    ![Third color](https:/# add pop-up screen backup color)
     - Additional colors:
-        - #fff - white - used for Hero image cover text and for Signup forms header
-        - rgb(0, 0, 0) - black - with various opacity levels for transparent backgrounds
+        - ####delete if none
+
 
 
 
@@ -114,21 +114,16 @@ Simple and crisp design
   <summary>Desktop</summary>
    ![Desktop Wireframes](add desktop wireframes) 
    ![Desktop Wireframes](add desktop wireframe 2) 
-  <details>
-  <summary>Desktop Wireframes PDF</summary>
-  
-   [Desktop Wireframes PDF](add pdf) 
-  </details>
 </details>
 <details>
   <summary>Mobile</summary>
    ![Mobile Wireframes](add mobile ) 
    ![Mobile Wireframes](add mobile 2) 
-  <details>
-  <summary>Mobile Wireframes PDF</summary>
+</details>
+<details>
+  <summary>Wireframes PDF</summary>
   
-   [Mobile Wireframes PDF](add mobile pdf) 
-  </details>
+   [Wireframes PDF](add pdf) 
 </details>
 ## Technology
 -__Languages__

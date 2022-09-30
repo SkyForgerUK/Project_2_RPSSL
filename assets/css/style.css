@@ -40,6 +40,7 @@ body {
 
 .game-area {
     background-color: black;
+    /* padding: 5% 2%; */
 }
 
 #score-area {
@@ -47,6 +48,7 @@ body {
     background-color: rgb(147, 126, 167);
     justify-content: space-between;
     text-align: center;
+    padding: 5% 0;
 
 }
 
@@ -65,7 +67,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #949494;
-    padding: 1% 4%;
+    padding: 2% 4%;
 }
 
 .chosen-cards {
