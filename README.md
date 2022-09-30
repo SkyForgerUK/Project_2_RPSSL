@@ -46,7 +46,7 @@ Visit the Deployed website [here](to be added)
 ## User Stories 
 - As a user I want:
     - To easily understand the purpose of the website.
-    - To be able to find out the rukes of the game without using external resources.
+    - To be able to find out the rules of the game without using external resources.
     - To easily access the rules section and close it at any time.
     - To be able to easly operate the game.
     - To easily chose one of the options.
@@ -74,7 +74,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 <details>
   <summary>Landing Page screenshot</summary>
- ![Landing Page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/s-home-page.jpg)
+ ![Landing Page screenshot](####add landing page)
 </details>
 <br>
 <details>
@@ -111,20 +111,31 @@ Simple easy to use design
 ## Wireframes
 
 <details>
+
   <summary>Desktop</summary>
-   ![Desktop Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-desktop.jpg) 
-   ![Desktop Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-desktop-pop-up.jpg) 
+
+   ![Desktop Wireframes](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-desktop.jpg) 
+   ![Desktop Wireframes](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-desktop-pop-up.jpg)
+
 </details>
+
 <details>
+
   <summary>Mobile</summary>
-   ![Mobile Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-mobile.jpg) 
-   ![Mobile Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-mobile-pop-up.jpg) 
+
+   ![Mobile Wireframes](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-mobile.jpg) 
+   ![Mobile Wireframes](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-mobile-pop-up.jpg) 
+
 </details>
+
 <details>
+
   <summary>Wireframes PDF</summary>
   
-   [Wireframes PDF](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-full.pdf) 
+   [Wireframes PDF](https://github.com/SkyForgerUK/project_2_RPSSL/blob/main/docs/Project2-full.pdf) 
+
 </details>
+
 ## Technology
 -__Languages__
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -134,7 +145,7 @@ Simple easy to use design
 - [Balsamiq Wireframes](https://balsamiq.com/)
     - To create wireframe design outlay
 - [Google Fonts](https://fonts.google.com/)
-    - To acquire 'Lato' and 'Merriweather' font to use on the site
+    <!-- - To acquire 'Lato' and 'Merriweather' font to use on the site -->
 - [Clean css](https://www.cleancss.com/css-beautify/) 
     - CSS formatting tool
 - [Google rgb color picker](https://www.google.com/search?q=rgb+color+picker&rlz=1C1GCEB_enGB1012GB1012&oq=rgb+color&aqs=chrome.0.0i433i512j69i57j0i512l8.3968j0j7&sourceid=chrome&ie=UTF-8)
@@ -161,7 +172,7 @@ Simple easy to use design
     - For testing the performance of the site
 
 ## Testing
-Testing was carried out by using every device that was available to the project developer, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
+<!-- Testing was carried out by using every device that was available to the project developer, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
 ### Code Validation - HTML and CSS validation
  - __W3C Markup Validator__
     - On the first try validator reported 4 errors spanning across all pages:
@@ -189,66 +200,70 @@ Testing was carried out by using every device that was available to the project 
   <summary>CSS Pass Message</summary>
    ![CSS Pass Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_pass.jpg) 
 </details>       
-<br>
+<br> -->
 ### Test cases 
 <br>
 - __User Cases__
 - To easily understand the purpose of the website.
-    - When the Landing page opens cover text with "Dog walks in Nuneaton where anyone can join" is visible providing the user with information about the purpose of the website
+    - When the Landing page opens the whole content of the site is visible. The footer holds the full name of the game and, even if user is not familiar with the "Lizard Spock" part, the symbols of "Rock Paper Scissors" is will be recognised by the majority.
 <br>
 <details>
   <summary>Purpose screenshot</summary>
-   ![Purpose screensho](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/purpose-website.jpg) 
+
+   ![Purpose](###add the landing page screenshot) 
+
 </details>  
 <br>
-- To clearly see what sections I can explore in the website.
-    - On the landing page the Navigation bar provides a summary of the site
+- To be able to find out the rules of the game without using external resources.
+    - At the top right of the page is a clickable button that brings up a pop-up screen which explaines the rules in written format and with a help of a diagram.
 <br>
-- To easily reach each section.
-    - Navigation bar is always visible at the top at the website making it easy to navigate trough pages
+- - To easily access the rules section and close it at any time.
+    - The pop-up button is vissible at all time, tobe reached easely and when open the user can either click on the "x" in the top right corner of the pop-up or click anywhere ousider the pop-up.
 <details>
-  <summary>Navigation bar screenshot</summary>
-   ![Navigation bar small](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/navigation-bar-small.jpg)
-   ![Navigation bar large](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/navigation-bar-large.jpg) 
+  <summary>Pop-up screenshot</summary>
+
+   ![Pop-up](###add pop up screenshot )
+ 
    
 </details>  
 <br>
-- To understand who Mr. Pancake is.
-    - Using navigation bar moving to section Mr. Pancake, window with the required information opens 
+- To be able to easly operate the game.
+    - The clickable buttons allow for an easy use of the game. Only mouse or mobile screen is needed top play it. 
 <details>
-  <summary>Mr. Pancake page screenshot</summary>
-   ![Mr. Pancake page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/who-mr-pancake.jpg) 
+  <summary>Game are screenshot</summary>
+
+   ![Game area](http:// #add game are screenshot) 
 </details> 
 <br> 
-- To easily get to meet up times and locations information.
-    - On landing page, scroll past the reasons for joining a walk, a list of times and locations is available
-    - On landing page clicking on Locations in Navigation bar a page with meet up information and embedded Google maps opens
+- To easily chose one of the options..
+    - Five clickable cards fit the game symbols are easely visible under the dynamic text area. 
+
  <details>
-  <summary>Home page screenshot</summary>
-   ![Home page](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/home-page-meet-up-bar.jpg) 
+  <summary>Five cards screenshot</summary>
+
+   ![Five cards](https:/###add 5 cards screenshot) 
 </details> 
-<details>
-  <summary>Locations page screenshot</summary>
-   ![Locations page](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/locations-page.jpg) 
-</details> 
+
 <br>    
-- To be able to contact organizers in case of questions.
-    - Using Navigation bar, click on  "Contact Us" the Contact page opens with a contact form available
+- To be able to see the result of the round.
+    - In the middle of the game area there are 2 cards that change respective to users choice and computers randomly generated result showing the results. additionally under the cards there is a dynamic text area informing of users choice and the result of the round.
 <details>
-  <summary>Contact Us screenshot</summary>
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/contact-us-page.jpg) 
+  <summary>Results area screenshot</summary>
+
+   ![Results area](https://###add result area screenshot) 
 </details> 
 <br> 
-- To receive a confirmation on successful contact for submission
-    - Clicking on "Contact Us" on Navigation bar opens a form that, when successfully is filled in, opens a page with a "Thank you for contacting us!" message displayed
+- To be able to see the score.
+    - Above the results area the user's and computers current score.
 <details>
-  <summary>Thank you screenshot</summary>
-   ![Thank you](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/thank-you-screenshot.JPG) 
+  <summary>Score area screenshot</summary>
+
+   ![Score area](https://###add score area screenshot) 
 </details> 
 <br> 
 ### General Testing
     
-<details>
+<!-- <details>
   <summary>Launching and responsiveness</summary>
   |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
@@ -321,16 +336,16 @@ Testing was carried out by using every device that was available to the project 
   | Clicking on submit button three mandatory field filled in | User is taken to "Thank you" page | Pass |
   | Clicking on all footer icons | Each social platform icon opens their respective website in a new tab | Pass |
   
-</details>
+</details> -->
   
 ### Fixed bugs
-- __Logo not showing on the published page__
+<!-- - __Logo not showing on the published page__
     - In the page header the path to the logo image started like - "/assets/..." so I changed it to "assets/..." and the issue was fixed
 - __Thank you page background image overlapping the nav bar for screen sizes over 900px__
     - Created a new set of styling in "@media screen and (min-width: 900px)" to counter the issue - fixed
  ### Not fixed bugs
  - __Logo on screens below 900px does not respond to clicks - shortcut to Home page__
-    - This bug will be fixed after project submission   
+    - This bug will be fixed after project submission    -->
   <br>      
 ### Supported Screens, Browsers and Performance
 ### Browsers
@@ -352,18 +367,9 @@ Testing was carried out by using every device that was available to the project 
 <details>
   <summary>Performance results</summary>
 - Landing page:
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-landing.jpg)
-- Mr. Pancake page:
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-mr-pancake.jpg)
-- Gallery:    
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-gallery.jpg)
-- Locations page: 
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-locations.jpg)
-- Contact Us page: 
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-contacts.jpg)
-- Thank You page: 
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-thank-you.jpg) 
-</details> 
+<!-- 
+   ![Landing page](https:/###add landing page performance result snip)
+</details>  -->
 <br >
 ## Deployment
 - __Via GitHub__
@@ -382,7 +388,7 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
     - use this link to access the, now published, website
 <details>
   <summary>Link Page screenshot</summary>
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/publish-screenshot.jpg)
+   ![Contact Us](https://github.com/SkyForgerUK/###add link)
   
 </details> 
 <br>   
