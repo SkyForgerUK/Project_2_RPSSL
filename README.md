@@ -112,18 +112,18 @@ Simple easy to use design
 
 <details>
   <summary>Desktop</summary>
-   ![Desktop Wireframes](add desktop wireframes) 
-   ![Desktop Wireframes](add desktop wireframe 2) 
+   ![Desktop Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-desktop.jpg) 
+   ![Desktop Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-desktop-pop-up.jpg) 
 </details>
 <details>
   <summary>Mobile</summary>
-   ![Mobile Wireframes](add mobile ) 
-   ![Mobile Wireframes](add mobile 2) 
+   ![Mobile Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-mobile.jpg) 
+   ![Mobile Wireframes](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-mobile-pop-up.jpg) 
 </details>
 <details>
   <summary>Wireframes PDF</summary>
   
-   [Wireframes PDF](add pdf) 
+   [Wireframes PDF](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/Project2-full.pdf) 
 </details>
 ## Technology
 -__Languages__
