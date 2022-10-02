@@ -2,16 +2,15 @@
  * declare contants for all DOM elements
  * and choices
  *let result = checkWinner(choices[playerMove], choices[computerMove]) updateScores(result);
- * const playerScore = document.getElementById('your-score');
- * const computerScore = document.getElementById('opponent-score');
+ * 
+ * 
  */  
 
 
-
-
+const playerScore = document.getElementById('your-score');
+const computerScore = document.getElementById('opponent-score');
 const playerChoice = document.getElementById('your-card');
 const computerChoice = document.getElementById('opponent-card');
-const message = document.getElementsByClassName('interaction-text');
 const buttons = document.getElementsByClassName('button');
 const choices = ['rock-hand', 'paper-hand', 'scissors-hand'];
 
@@ -39,47 +38,55 @@ function playGame(playerMove) {
     let computerMove = Math.floor(Math.random() * 3);
 
     computerChoice.src = `assets/images/${choices[computerMove]}.png`;
-    computerChoice.alt = choices[computerMove]
-
-
-}
-
-
-function checkWinner() {
-    let a = choices[playerMove];
-    let b = choices[computerMove];
+    computerChoice.alt = choices[computerMove];
 
     if (
-        a === 'rock-hand' && b === 'scissors-hand' ||
-        a === 'scissors-hand' && b === 'paper-hand' ||
-        a === 'paper-hand' && b === 'rock-hand') {
-        return "won"
-    }
-
-    if (
-        b === 'rock-hand' && a === 'scissors-hand' ||
-        b === 'scissors-hand' && a === 'paper-hand' ||
-        b === 'paper-hand' && a  === 'rock-hand') {
-        return "lost"
-    }
-
-    if (a === b) {
-        return "draw"
-    } 
+        choices[playerMove] === "rock-hand" && choices[computerMove] === "scissors-hand" ||
+        choices[playerMove] === "scissors-hand" && choices[computerMove] === "paper-hand" ||
+        choices[playerMove] === "paper-hand" && choices[computerMove] === "rock-hand"
+        ) {
+        messageWon();
+        updatePlayerScore();
     
+    } else if (
+        choices[playerMove] === "scissors-hand" && choices[computerMove] === "rock-hand" ||
+        choices[playerMove] === "paper-hand" && choices[computerMove] === "scissors-hand" ||
+        choices[playerMove] === "rock-hand" && choices[computerMove] === "paper-hand"
+        ) {
+        messageLost();
+        updateComputerScore();       
+    
+    } else if (choices[playerMove] === choices[computerMove]) {
+        messageDraw();
+    }
+
+
 }
 
-function updateResults() {
-    let yourOldScore = parseInt(document.getElementById('your-score').innerText);
-    let computerOldScore = parseInt(document.getElementById('opponent-score').innerText);
+function updatePlayerScore() {
 
-    if (checkWinner() === "won") {
-        return document.getElementById('your-score').innerText = ++yourOldScore;
-    } else {
+    let oldScore = parseInt(document.getElementById('your-score').innerText);
+    document.getElementById('your-score').innerText = ++oldScore;
+}
 
-        if (checkWinner() === "lost") {
-            return document.getElementById('your-score').innerText = ++computerOldScore;
-        }
+function updateComputerScore() {
 
-    }
-} 
+    let oldScore = parseInt(document.getElementById('opponent-score').innerText);
+    document.getElementById('opponent-score').innerText = ++oldScore;  
+}
+
+function messageWon() {
+
+    document.getElementById('interaction-text').innerText = `"You won"`;    
+}
+
+function messageLost() {
+
+    document.getElementById('interaction-text').innerText = `"You Lost"`;    
+}
+
+function messageDraw() {
+
+    document.getElementById('interaction-text').innerText = `"It's a Draw"`;    
+}
+

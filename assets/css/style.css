@@ -109,7 +109,7 @@ body {
     padding: 0 20%;
 }
 
-.interaction-text {
+#interaction-text {
     width: 100%;
     text-align: center;
     border: 1px solid black;

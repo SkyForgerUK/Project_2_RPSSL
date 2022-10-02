@@ -408,3 +408,43 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
 - All images on the site are project developers personal images, except of:
     - Background image for Locations and Home page meet up times taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:Cotswolds_Panorama_Fields.jpg)
     - Background image for Contact Us page taken from [FreeImages](https://www.freeimages.com/)
+
+
+
+
+function updateResults() {
+    let yourOldScore = parseInt(playerScore.innerText);
+    let computerOldScore = parseInt(computerScore.innerText);
+
+    if (checkWinner() === "won") {
+        document.getElementById('your-score').innerText = ++yourOldScore;
+    } else {
+
+        if (checkWinner() === "lost") {
+            document.getElementById('your-score').innerText = ++computerOldScore;
+        }
+
+    }
+} 
+
+function checkWinner(a, b) {
+    let a = choices[playerMove];
+    let b = choices[computerMove];
+    let yourOldScore = parseInt(document.getElementById('your-score').innerText);
+    let computerOldScore = parseInt(document.getElementById('opponent-score').innerText);
+
+    if (
+        a === 'rock-hand' && b === 'scissors-hand' ||
+        a === 'scissors-hand' && b === 'paper-hand' ||
+        a === 'paper-hand' && b === 'rock-hand') {
+            document.getElementById('your-score').innerText = ++yourOldScore;
+    } else if (
+        b === 'rock-hand' && a === 'scissors-hand' ||
+        b === 'scissors-hand' && a === 'paper-hand' ||
+        b === 'paper-hand' && a  === 'rock-hand') {
+            document.getElementById('opponent-score').innerText = ++computerOldScore;
+    } else if (a === b) {
+        return "draw"
+    } 
+    
+}
