@@ -1,22 +1,23 @@
 
 
 * rock D Johnson image from https://theprofile.substack.com/
-* rules image from https://puzzlewocky.com/
-* png icons for game frompngwing.com
+* rules image from https://en.wikipedia.org/wiki/Rock_paper_scissors
 * question mark from pexels.com https://www.pexels.com/photo/question-mark-on-chalk-board-356079/
-* individual images of RPSLS from git hub user https://github.com/DavidSamir/Rock-Paper-Scissors-Lizard-Spock
-* question mark from : https://blog.stageagent.com/how-to-take-an-adjustment/question-mark/
+* individual images of RPS from git hub user https://github.com/DavidSamir/Rock-Paper-Scissors-Lizard-Spock
 
 
-# Rock Paper Scissors Lizard Spock game
-Your traditional Rock Paper Scissors game taken to the next level, by adding 2 new variables taken from the popular show "The Big Bang Theory". 
 
-Now the Rock Paper Scissors Lizard Spock game will provide to the user:
+# Rock Paper Scissors  game
+Traditional Rock Paper Scissors game providing unlimited fun in simple format. 
+
+The Rock Paper Scissors game will provide to the user:
 
 1. A fair competition based truly on random results
 2. Chance to pass time by playing a game of chance
 3. #/# insert a third reason
+
 ![mockup](to be added)
+
 Visit the Deployed website [here](to be added)
 ## Table of Content
 - [User Stories](#user-stories)
@@ -61,7 +62,7 @@ There is one Home page including:
 ### Navigation Bar and Footer
 Both Nav bar and footer are responsive to the size of the screen being used to read the website.
 - __Navigation Bar:__
-    - Nav bar holds abreviation of the games ful name and a stylised button that brings up rulls on a pop-up window.
+    - Nav bar holds abreviation of the games full name and a stylised button that brings up rulls on a pop-up window.
 - __Footer:__
     - Footer contains full name of the game and is ised to give the site a better visual look.
 ## Landing Page
@@ -70,7 +71,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
         - Score area - where the current score is kept
         - Chosen card area - where the user's and computers chosen cards are shown
         - Interactive text area - instructs user and provides feedback on choice made - win, lose or draw
-        - Card area - holding 5 cards for the user to chose and play from 
+        - Card area - holding 3 cards for the user to chose and play from 
 
 <details>
   <summary>Landing Page screenshot</summary>
@@ -85,7 +86,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 ## Features left to implement
 - __Main Page__
-    - Add in~~~~####
+    - Add Lizard and Spock option.
 
 ## Typografy and color scheme
 ### Design
@@ -205,7 +206,7 @@ Simple easy to use design
 <br>
 - __User Cases__
 - To easily understand the purpose of the website.
-    - When the Landing page opens the whole content of the site is visible. The footer holds the full name of the game and, even if user is not familiar with the "Lizard Spock" part, the symbols of "Rock Paper Scissors" is will be recognised by the majority.
+    - When the Landing page opens the whole content of the site is visible. The footer holds the full name of the game and the familiar symbols of "Rock Paper Scissors" are on display.
 <br>
 <details>
   <summary>Purpose screenshot</summary>
@@ -218,7 +219,7 @@ Simple easy to use design
     - At the top right of the page is a clickable button that brings up a pop-up screen which explaines the rules in written format and with a help of a diagram.
 <br>
 - - To easily access the rules section and close it at any time.
-    - The pop-up button is vissible at all time, tobe reached easely and when open the user can either click on the "x" in the top right corner of the pop-up or click anywhere ousider the pop-up.
+    - The pop-up button is vissible at all time, to be reached easely and when open the user can either click on the "x" in the top right corner of the pop-up or click anywhere ousider the pop-up.
 <details>
   <summary>Pop-up screenshot</summary>
 
@@ -228,20 +229,20 @@ Simple easy to use design
 </details>  
 <br>
 - To be able to easly operate the game.
-    - The clickable buttons allow for an easy use of the game. Only mouse or mobile screen is needed top play it. 
+    - The clickable buttons allow for an easy use of the game. Only mouse or mobile screen is needed top play the game. 
 <details>
-  <summary>Game are screenshot</summary>
+  <summary>Game area screenshot</summary>
 
    ![Game area](http:// #add game are screenshot) 
 </details> 
 <br> 
 - To easily chose one of the options..
-    - Five clickable cards fit the game symbols are easely visible under the dynamic text area. 
+    - Three clickable cards holding the familiar "Rock Paper Scissors" symbols are easely visible under the dynamic text area. 
 
  <details>
-  <summary>Five cards screenshot</summary>
+  <summary>Three cards screenshot</summary>
 
-   ![Five cards](https:/###add 5 cards screenshot) 
+   ![Three cards](https:/###add 3 cards screenshot) 
 </details> 
 
 <br>    
