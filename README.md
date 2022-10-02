@@ -141,7 +141,7 @@ Simple easy to use design
 -__Languages__
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS) 
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) ---------------------------- 
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 
 -__Software and Framework Libraries__
 - [Balsamiq Wireframes](https://balsamiq.com/)
     - To create wireframe design outlay
