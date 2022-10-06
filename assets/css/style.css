@@ -11,11 +11,13 @@
 /* ---- global style */
 
 
+
+
 body {
     background-color: antiquewhite;
     margin: 1%;
-    max-height: 100vh;
-    padding: 0;
+    padding-left: 20%;
+    max-width: 80%;
 }
 
 /* --------- Heading */
@@ -28,7 +30,6 @@ body {
     align-items: center;
     width: 100%;
     height: 10%;
-    z-index: 100;
 }
 
 .heading-content {
@@ -36,12 +37,12 @@ body {
 }
 
 .heading-content>h1 {
-    font-size: 6vw;
+    /* font-size: 6vw; */
 }
 
 .game-area {
     background-color: rgb(193, 243, 13);
-    min-height: 80%;
+    width: 100%;
 }
 
 #score-area {
@@ -57,7 +58,7 @@ body {
     display: inline-block;
     width: 96%;
     margin: 1% 2%;
-    font-size: 5vw;   
+    /* font-size: 5vw;    */
 }
 
 .identifier {
@@ -68,7 +69,6 @@ body {
     padding-top: 2%;
     padding-bottom: auto;
     height: 6%;
-
 }
 
 .chosen-cards-area {
@@ -97,13 +97,12 @@ body {
 }
 
 .chosen-cards>p {
-    font-size: 5vw;
+    /* font-size: 5vw; */
     font-weight: bold;
 }
 
 .interaction-text-area {
     width: 100%;
-    
     background-color: rgb(54, 235, 54);
     margin: 1% 0;
     padding: 0 20%;
@@ -114,7 +113,7 @@ body {
     text-align: center;
     border: 1px solid black;
     background-color: bisque;
-    font-size: 6vw; 
+    /* font-size: 6vw;  */
     padding: 5% 0;
     margin: 4% 0;
     
@@ -139,12 +138,12 @@ body {
 
 .footer {
     text-align: center;
-    font-size: 5vw;
+    /* font-size: 5vw; */
     padding: 5% 0;
     background-color: #5c5c5c;
     color: azure;
     font-weight: bold;
-    height: 10vh;
+    height: 5vh;
 }
 
 .modal {
