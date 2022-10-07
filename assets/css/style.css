@@ -78,7 +78,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #949494;
-    padding: 0 4% 2% 4%;
+    /* padding: 0 4% 2% 4%; */
+    padding-bottom: 2%;
     height: 40%;  
 }
 
