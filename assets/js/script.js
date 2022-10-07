@@ -8,11 +8,10 @@
 
 
 
-const playerChoice = document.getElementById('your-card');
-const computerChoice = document.getElementById('opponent-card');
-const buttons = document.getElementsByClassName('button');
-const choices = ['rock-hand', 'paper-hand', 'scissors-hand'];
 
+
+const choices = ['rock-hand', 'paper-hand', 'scissors-hand'];
+const overlay = document.getElementById('overlay');
 
 
 
@@ -25,6 +24,8 @@ const choices = ['rock-hand', 'paper-hand', 'scissors-hand'];
  * to match up with the randomly generated computer value and declare the winner and update the current score
  */
 function playGame(playerMove) {
+    let playerChoice = document.getElementById('your-card');
+    let computerChoice = document.getElementById('opponent-card');
 
     playerChoice.src = `assets/images/${choices[playerMove]}.png`;
     playerChoice.alt = choices[playerMove];
@@ -83,15 +84,8 @@ function messageDraw() {
 }
 
 /**
- * Pop-up button code
+ * Pop-up button code allows for opening ang closing of the pop-up button
  */
-
-const openModalButtons = document.querySelectorAll('[data-modal-target]');
-const closeModalButtons = document.querySelectorAll('[data-close-button]'); 
-const overlay = document.getElementById('overlay');
-
-
-
 
 function openModal(modal) {
     if (modal == null ) return;
@@ -106,11 +100,14 @@ function closeModal(modal) {
 }
 
 /**
- * initializeGame function contains event listener for players choice and click on pop-up button
+ * InitializeGame function contains event listener for players choice and click on pop-up button
  * which is run as soon as the DOMContentLoaded has been verified
  */
 
 function initializeGame() {
+    let buttons = document.getElementsByClassName('button');
+    let openModalButtons = document.querySelectorAll('[data-modal-target]');
+    let closeModalButtons = document.querySelectorAll('[data-close-button]'); 
 
  for (let button of buttons) {
     button.addEventListener('click', function () {
