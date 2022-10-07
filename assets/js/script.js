@@ -16,19 +16,14 @@ const choices = ['rock-hand', 'paper-hand', 'scissors-hand'];
 
 
 
-/**
- * add event listener to all buttons
- */
 
- for (let button of buttons) {
-    button.addEventListener('click', function () {
-        let playerMove = this.getAttribute('data-choice');
-        playGame(playerMove);
-    });    
-}
+
+
+
 
 /**
- * The main game function
+ * Playermove records players choice using 'click' listener and returns a value
+ * to match up with the randomly generated computer value and declare the winner and update the current score
  */
 function playGame(playerMove) {
 
@@ -96,6 +91,35 @@ const openModalButtons = document.querySelectorAll('[data-modal-target]');
 const closeModalButtons = document.querySelectorAll('[data-close-button]'); 
 const overlay = document.getElementById('overlay');
 
+
+
+
+function openModal(modal) {
+    if (modal == null ) return;
+    modal.classList.add('active');
+    overlay.classList.add('active');
+}
+
+function closeModal(modal) {
+    if (modal == null ) return;
+    modal.classList.remove('active');
+    overlay.classList.remove('active');
+}
+
+/**
+ * initializeGame function contains event listener for players choice and click on pop-up button
+ * which is run as soon as the DOMContentLoaded has been verified
+ */
+
+function initializeGame() {
+
+ for (let button of buttons) {
+    button.addEventListener('click', function () {
+        let playerMove = this.getAttribute('data-choice');
+        playGame(playerMove);
+    });    
+}
+
 openModalButtons.forEach(button => {
     button.addEventListener('click', () => {
         const modal = document.querySelector(button.dataset.modalTarget);
@@ -117,16 +141,7 @@ closeModalButtons.forEach(button => {
         closeModal(modal);
     });
 });
-
-
-function openModal(modal) {
-    if (modal == null ) return;
-    modal.classList.add('active');
-    overlay.classList.add('active');
+    
 }
 
-function closeModal(modal) {
-    if (modal == null ) return;
-    modal.classList.remove('active');
-    overlay.classList.remove('active');
-}
+window.addEventListener('DOMContentLoaded', initializeGame);
