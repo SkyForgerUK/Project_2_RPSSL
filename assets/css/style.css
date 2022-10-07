@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Silkscreen&display=swap');
+
 *,
 *::before,
 *::after {
@@ -15,6 +17,7 @@ body {
     margin-right: 20%;
     max-width: 60%;
     border: 2px solid white;
+    font-family: 'Silkscreen', cursive;
 }
 
 /* --------- Heading */
@@ -48,7 +51,8 @@ body {
     flex-direction: row;
     text-align: center;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+    text-shadow: 0px 5px 20px black;
 }
 
 .score {
@@ -103,7 +107,7 @@ body {
 
 #interaction-text {
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     border: 1px solid white;
@@ -116,7 +120,7 @@ body {
 .button-div {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0 5%;
     display: flex;
     justify-content: space-between; 
 }
@@ -131,7 +135,7 @@ body {
 }
 
 .btn-image {
-    width: 66%;
+    width: 90%;
     height: auto;
 }
 
@@ -141,7 +145,7 @@ body {
     text-align: center;
     background-color: #5c5c5c;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 2% 0;
 }
 
@@ -156,9 +160,11 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: white;
+    background-color: azure;
     width: 500px;
     max-width: 80%;
+    font-family: 'Peralta', cursive;
+    color: black;
 }
 
 .modal.active {
@@ -189,6 +195,12 @@ body {
 
 .modal-body {
     padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
+.modal-body>p {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
 }
 
 #overlay {
@@ -206,4 +218,16 @@ body {
 #overlay.active {
     opacity: 1;
     pointer-events: all;
+}
+
+.mod-button {
+    cursor: pointer;
+    border: 1px solid azure;
+    border-radius: 10px;
+    outline: none;
+    background: #949494;
+    color: azure;
+    font-size: 1.1rem;
+    padding: 3px;
+    font-family: 'Peralta', cursive;
 }
