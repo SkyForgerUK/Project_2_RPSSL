@@ -7,8 +7,7 @@
  */  
 
 
-const playerScore = document.getElementById('your-score');
-const computerScore = document.getElementById('opponent-score');
+
 const playerChoice = document.getElementById('your-card');
 const computerChoice = document.getElementById('opponent-card');
 const buttons = document.getElementsByClassName('button');
