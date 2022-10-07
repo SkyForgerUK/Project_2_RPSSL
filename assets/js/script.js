@@ -40,47 +40,33 @@ function playGame(playerMove) {
         choices[playerMove] === "scissors-hand" && choices[computerMove] === "paper-hand" ||
         choices[playerMove] === "paper-hand" && choices[computerMove] === "rock-hand"
         ) {
-        messageWon();
-        updatePlayerScore();
+        displayResult(`Congratulations! You won!`);
+        updateScore('your-score');
     
     } else if (
         choices[playerMove] === "scissors-hand" && choices[computerMove] === "rock-hand" ||
         choices[playerMove] === "paper-hand" && choices[computerMove] === "scissors-hand" ||
         choices[playerMove] === "rock-hand" && choices[computerMove] === "paper-hand"
         ) {
-        messageLost();
-        updateComputerScore();       
+        displayResult(`Sorry. You Lost.`);
+        updateScore('opponent-score');       
     
     } else if (choices[playerMove] === choices[computerMove]) {
-        messageDraw();
+        displayResult(`It's a Draw`);
     }
 }
 
-function updatePlayerScore() {
+function updateScore(newScore) {
 
-    let oldScore = parseInt(document.getElementById('your-score').innerText);
-    document.getElementById('your-score').innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById(newScore).innerText);
+    document.getElementById(newScore).innerText = ++oldScore;
 }
 
-function updateComputerScore() {
 
-    let oldScore = parseInt(document.getElementById('opponent-score').innerText);
-    document.getElementById('opponent-score').innerText = ++oldScore;  
-}
 
-function messageWon() {
+function displayResult(resultMessage) {
 
-    document.getElementById('interaction-text').innerText = `Congratulations! You won!`;    
-}
-
-function messageLost() {
-
-    document.getElementById('interaction-text').innerText = `Sorry. You Lost.`;    
-}
-
-function messageDraw() {
-
-    document.getElementById('interaction-text').innerText = `It's a Draw`;    
+    document.getElementById('interaction-text').innerText = resultMessage;
 }
 
 /**
