@@ -11,13 +11,7 @@
 
 
 const choices = ['rock-hand', 'paper-hand', 'scissors-hand'];
-const overlay = document.getElementById('overlay');
-
-
-
-
-
-
+let overlay = document.getElementById('overlay');
 
 /**
  * Playermove records players choice using 'click' listener and returns a value
@@ -61,8 +55,6 @@ function updateScore(newScore) {
     let oldScore = parseInt(document.getElementById(newScore).innerText);
     document.getElementById(newScore).innerText = ++oldScore;
 }
-
-
 
 function displayResult(resultMessage) {
 
