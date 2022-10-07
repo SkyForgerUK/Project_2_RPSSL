@@ -75,17 +75,17 @@ function updateComputerScore() {
 
 function messageWon() {
 
-    document.getElementById('interaction-text').innerText = `"You won"`;    
+    document.getElementById('interaction-text').innerText = `Congratulations! You won!`;    
 }
 
 function messageLost() {
 
-    document.getElementById('interaction-text').innerText = `"You Lost"`;    
+    document.getElementById('interaction-text').innerText = `Sorry. You Lost.`;    
 }
 
 function messageDraw() {
 
-    document.getElementById('interaction-text').innerText = `"It's a Draw"`;    
+    document.getElementById('interaction-text').innerText = `It's a Draw`;    
 }
 
 /**
