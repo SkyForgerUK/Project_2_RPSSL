@@ -236,3 +236,36 @@ body {
     padding: 3px;
     font-family: 'Peralta', cursive;
 }
+
+/*responsive styling*/
+@media screen and (max-width: 2200px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 1966px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    body {
+        margin-left: 8%;
+        margin-right: 8%;
+        max-width: 84%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    body {
+        margin-left: 6%;
+        margin-right: 6%;
+        max-width: 88%;
+    }
+}
