@@ -234,6 +234,7 @@ body {
 }
 
 /* ------ responsive styling */
+
 @media screen and (max-width: 2200px) {
     body {
         margin-left: 15%;
@@ -285,6 +286,10 @@ body {
     body {
         margin-top: 10%;
     }
+
+    .modal-body {
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -309,7 +314,6 @@ body {
     }
 
     .modal-body {
-        padding: 10px 15px;
         font-size: 0.7rem;
     }
 }
