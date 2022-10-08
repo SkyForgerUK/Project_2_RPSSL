@@ -3,12 +3,12 @@
 *,
 *::before,
 *::after {
-     box-sizing: border-box;
-     margin: 0.1%;
-     padding: 0.1%;
-}     
+    box-sizing: border-box;
+    margin: 0.1%;
+    padding: 0.1%;
+}
 
-/* ---- Global style */
+/* ------ Global style */
 
 body {
     background-color: rgb(39, 39, 38);
@@ -21,7 +21,7 @@ body {
     font-family: 'Silkscreen', cursive;
 }
 
-/* --------- Heading */
+/* ------ Heading */
 
 .heading {
     background-color: #5c5c5c;
@@ -37,13 +37,15 @@ body {
     width: 30%;
 }
 
+/* ------ Main Section */
+
 .game-area {
     background-color: #949494;
     width: 100%;
 }
 
 #score-area {
-    width: 99.9%;   
+    width: 99.9%;
     background-color: #949494;
     display: flex;
     flex-direction: row;
@@ -76,7 +78,7 @@ body {
     margin-right: auto;
     background-color: #949494;
     padding-bottom: 2%;
-    height: 40%;  
+    height: 40%;
 }
 
 .chosen-cards {
@@ -117,7 +119,7 @@ body {
     margin: 0;
     padding: 0 5%;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .button {
@@ -134,7 +136,7 @@ body {
     height: auto;
 }
 
-/*---footer---*/
+/* ------ Footer */
 
 .footer {
     text-align: center;
@@ -144,7 +146,7 @@ body {
     padding: 2% 0;
 }
 
-/* Pop-up button*/
+/* ------ Pop-up button */
 
 .modal {
     position: fixed;
@@ -231,7 +233,7 @@ body {
     font-family: 'Peralta', cursive;
 }
 
-/*responsive styling*/
+/* ------ responsive styling */
 @media screen and (max-width: 2200px) {
     body {
         margin-left: 15%;
@@ -266,36 +268,6 @@ body {
 
 @media screen and (max-width: 808px) {
     #score-area {
-        display: flex;
-        flex-direction: column;
-        font-size: 1.4rem;
-        padding: 5% 0;
-    }
-
-    #interaction-text {
-        width: 100%;
-        font-size: 1.7rem;
-        font-weight: bold;
-        text-align: center;
-        border: 1px solid white;
-        background-color: #5c5c5c;
-        padding: 2% 0;
-        margin: 2% 0;
-    }
-
-    .question-card {
-        width: 90%;
-        height: auto;
-    }
-
-    body {
-        margin-top: 10%;
-    }
-}
-
-@media screen and (max-width: 808px) {
-    #score-area {
-        display: flex;
         flex-direction: column;
         font-size: 1.4rem;
         padding: 5% 0;
