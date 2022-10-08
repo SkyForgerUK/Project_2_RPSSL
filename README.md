@@ -14,12 +14,12 @@ Traditional Rock Paper Scissors game providing unlimited fun in simple format.
 The Rock Paper Scissors game will provide to the user:
 
 1. A fair competition based truly on random results
-2. Chance to pass time by playing a game of chance
-3. #/# insert a third reason
+2. Way to pass time by playing a game of chance
+3. Chance to try his/her luck
 
 ![mockup](to be added)
 
-Visit the Deployed website [here](to be added)
+Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/)
 ## Table of Content
 - [User Stories](#user-stories)
 - [Existing Features](#existing-features)
@@ -45,7 +45,9 @@ Visit the Deployed website [here](to be added)
 - [Deployment](#deployment)
 - [Credits](#credits)
 <br>
+
 ## User Stories 
+
 - As a user I want:
     - To easily understand the purpose of the website.
     - To be able to find out the rules of the game without using external resources.
@@ -54,6 +56,7 @@ Visit the Deployed website [here](to be added)
     - To easily chose one of the options.
     - To be able to see the result of the round.
     - To be able to see the score.
+
 ## Existing Features
 There is one Home page including:
 
@@ -205,6 +208,7 @@ Simple easy to use design
 <br> -->
 ### Test cases 
 <br>
+
 - __User Cases__
 - To easily understand the purpose of the website.
     - When the Landing page opens the whole content of the site is visible. The footer holds the full name of the game and the familiar symbols of "Rock Paper Scissors" are on display.
@@ -216,12 +220,15 @@ Simple easy to use design
 
 </details>  
 <br>
+
 - To be able to find out the rules of the game without using external resources.
     - At the top right of the page is a clickable button that brings up a pop-up screen which explaines the rules in written format and with a help of a diagram.
 <br>
+
 - - To easily access the rules section and close it at any time.
     - The pop-up button is vissible at all time, to be reached easely and when open the user can either click on the "x" in the top right corner of the pop-up or click anywhere ousider the pop-up.
 <details>
+
   <summary>Pop-up screenshot</summary>
 
    ![Pop-up](###add pop up screenshot )
@@ -229,6 +236,7 @@ Simple easy to use design
    
 </details>  
 <br>
+
 - To be able to easly operate the game.
     - The clickable buttons allow for an easy use of the game. Only mouse or mobile screen is needed top play the game. 
 <details>
@@ -237,6 +245,7 @@ Simple easy to use design
    ![Game area](http:// #add game are screenshot) 
 </details> 
 <br> 
+
 - To easily chose one of the options..
     - Three clickable cards holding the familiar "Rock Paper Scissors" symbols are easely visible under the dynamic text area. 
 
@@ -247,6 +256,7 @@ Simple easy to use design
 </details> 
 
 <br>    
+
 - To be able to see the result of the round.
     - In the middle of the game area there are 2 cards that change respective to users choice and computers randomly generated result showing the results. additionally under the cards there is a dynamic text area informing of users choice and the result of the round.
 <details>
@@ -254,7 +264,9 @@ Simple easy to use design
 
    ![Results area](https://###add result area screenshot) 
 </details> 
+
 <br> 
+
 - To be able to see the score.
     - Above the results area the user's and computers current score.
 <details>
@@ -263,6 +275,7 @@ Simple easy to use design
    ![Score area](https://###add score area screenshot) 
 </details> 
 <br> 
+
 ### General Testing
     
 <!-- <details>
@@ -348,7 +361,8 @@ Simple easy to use design
  ### Not fixed bugs
  - __Logo on screens below 900px does not respond to clicks - shortcut to Home page__
     - This bug will be fixed after project submission    -->
-  <br>      
+  <br>  
+
 ### Supported Screens, Browsers and Performance
 ### Browsers
 - Google Chrome
@@ -368,18 +382,20 @@ Simple easy to use design
     - Lower performance scores mainly due to image file type, size and embedded maps from Google
 <details>
   <summary>Performance results</summary>
+
 - Landing page:
-<!-- 
+
    ![Landing page](https:/###add landing page performance result snip)
-</details>  -->
+</details>
+
 <br >
+
 ## Deployment
 - __Via GitHub__
     - Open a web browser
     - Go to address https://github.com/
     - Log in my GitHub account
-    - On the left side a selection of recent repositories will be visible, click on "
-SkyForgerUK/Walk_Mr_Pancake_Project_1"
+    - On the left side a selection of recent repositories will be visible, click on "SkyForgerUK/Project_2_RPSSL"
     - Click on settings button
     - Click on "Pages" button
     - In "Branch" field click on "None" button and select "main" from drop down menu
@@ -389,12 +405,14 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
     - A link at the top part of the screen will become available
     - use this link to access the, now published, website
 <details>
+
   <summary>Link Page screenshot</summary>
 
    ![Contact Us](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-publish-page-screenshot.jpg)
   
 </details> 
 <br>   
+
 ## Credits
 ### Content
 - All content written by the project developer, except of:
@@ -409,43 +427,3 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
 - All images on the site are project developers personal images, except of:
     - Background image for Locations and Home page meet up times taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:Cotswolds_Panorama_Fields.jpg)
     - Background image for Contact Us page taken from [FreeImages](https://www.freeimages.com/)
-
-
-
-
-function updateResults() {
-    let yourOldScore = parseInt(playerScore.innerText);
-    let computerOldScore = parseInt(computerScore.innerText);
-
-    if (checkWinner() === "won") {
-        document.getElementById('your-score').innerText = ++yourOldScore;
-    } else {
-
-        if (checkWinner() === "lost") {
-            document.getElementById('your-score').innerText = ++computerOldScore;
-        }
-
-    }
-} 
-
-function checkWinner(a, b) {
-    let a = choices[playerMove];
-    let b = choices[computerMove];
-    let yourOldScore = parseInt(document.getElementById('your-score').innerText);
-    let computerOldScore = parseInt(document.getElementById('opponent-score').innerText);
-
-    if (
-        a === 'rock-hand' && b === 'scissors-hand' ||
-        a === 'scissors-hand' && b === 'paper-hand' ||
-        a === 'paper-hand' && b === 'rock-hand') {
-            document.getElementById('your-score').innerText = ++yourOldScore;
-    } else if (
-        b === 'rock-hand' && a === 'scissors-hand' ||
-        b === 'scissors-hand' && a === 'paper-hand' ||
-        b === 'paper-hand' && a  === 'rock-hand') {
-            document.getElementById('opponent-score').innerText = ++computerOldScore;
-    } else if (a === b) {
-        return "draw"
-    } 
-    
-}

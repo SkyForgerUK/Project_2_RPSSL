@@ -1,14 +1,7 @@
 /**
  * declare contants for all DOM elements
- * and choices
- *let result = checkWinner(choices[playerMove], choices[computerMove]) updateScores(result);
- * 
- * 
- */  
-
-
-
-
+ * and choices 
+ */
 
 const choices = ['rock', 'paper', 'scissors'];
 let overlay = document.getElementById('overlay');
@@ -17,6 +10,7 @@ let overlay = document.getElementById('overlay');
  * Playermove records players choice using 'click' listener and returns a value
  * to match up with the randomly generated computer value and declare the winner and update the current score
  */
+
 function playGame(playerMove) {
     let playerChoice = document.getElementById('your-card');
     let computerChoice = document.getElementById('opponent-card');
@@ -33,18 +27,18 @@ function playGame(playerMove) {
         choices[playerMove] === "rock" && choices[computerMove] === "scissors" ||
         choices[playerMove] === "scissors" && choices[computerMove] === "paper" ||
         choices[playerMove] === "paper" && choices[computerMove] === "rock"
-        ) {
+    ) {
         displayResult(`Great! You won!`);
         updateScore('your-score');
-    
+
     } else if (
         choices[playerMove] === "scissors" && choices[computerMove] === "rock" ||
         choices[playerMove] === "paper" && choices[computerMove] === "scissors" ||
         choices[playerMove] === "rock" && choices[computerMove] === "paper"
-        ) {
+    ) {
         displayResult(`Sorry. You Lost.`);
-        updateScore('opponent-score');       
-    
+        updateScore('opponent-score');
+
     } else if (choices[playerMove] === choices[computerMove]) {
         displayResult(`It is a Draw.`);
     }
@@ -66,13 +60,13 @@ function displayResult(resultMessage) {
  */
 
 function openModal(modal) {
-    if (modal == null ) return;
+    if (modal == null) return;
     modal.classList.add('active');
     overlay.classList.add('active');
 }
 
 function closeModal(modal) {
-    if (modal == null ) return;
+    if (modal == null) return;
     modal.classList.remove('active');
     overlay.classList.remove('active');
 }
@@ -85,37 +79,37 @@ function closeModal(modal) {
 function initializeGame() {
     let buttons = document.getElementsByClassName('button');
     let openModalButtons = document.querySelectorAll('[data-modal-target]');
-    let closeModalButtons = document.querySelectorAll('[data-close-button]'); 
+    let closeModalButtons = document.querySelectorAll('[data-close-button]');
 
- for (let button of buttons) {
-    button.addEventListener('click', function () {
-        let playerMove = this.getAttribute('data-choice');
-        playGame(playerMove);
-    });    
-}
+    for (let button of buttons) {
+        button.addEventListener('click', function () {
+            let playerMove = this.getAttribute('data-choice');
+            playGame(playerMove);
+        });
+    }
 
-openModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const modal = document.querySelector(button.dataset.modalTarget);
-        openModal(modal);
-    });
-});
-
-overlay.addEventListener('click', () => {
-    const modals = document.querySelectorAll('.modal.active');
-    modals.forEach(modal => {
-        closeModal(modal);
+    openModalButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const modal = document.querySelector(button.dataset.modalTarget);
+            openModal(modal);
+        });
     });
 
-});
+    overlay.addEventListener('click', () => {
+        const modals = document.querySelectorAll('.modal.active');
+        modals.forEach(modal => {
+            closeModal(modal);
+        });
 
-closeModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const modal = button.closest('.modal');
-        closeModal(modal);
     });
-});
-    
+
+    closeModalButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const modal = button.closest('.modal');
+            closeModal(modal);
+        });
+    });
+
 }
 
 window.addEventListener('DOMContentLoaded', initializeGame);
