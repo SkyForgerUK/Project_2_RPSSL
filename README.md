@@ -4,6 +4,7 @@
 * rules image from https://en.wikipedia.org/wiki/Rock_paper_scissors
 * question mark from pexels.com https://www.pexels.com/photo/question-mark-on-chalk-board-356079/
 * individual images of RPS from git hub user https://github.com/DavidSamir/Rock-Paper-Scissors-Lizard-Spock
+* white background ones https://www.rockpaperscissors30a.com/
 
 
 

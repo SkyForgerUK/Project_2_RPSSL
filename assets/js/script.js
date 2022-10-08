@@ -10,7 +10,7 @@
 
 
 
-const choices = ['rock-hand', 'paper-hand', 'scissors-hand'];
+const choices = ['rock', 'paper', 'scissors'];
 let overlay = document.getElementById('overlay');
 
 /**
@@ -21,32 +21,32 @@ function playGame(playerMove) {
     let playerChoice = document.getElementById('your-card');
     let computerChoice = document.getElementById('opponent-card');
 
-    playerChoice.src = `assets/images/${choices[playerMove]}.png`;
+    playerChoice.src = `assets/images/${choices[playerMove]}.jpg`;
     playerChoice.alt = choices[playerMove];
 
     let computerMove = Math.floor(Math.random() * 3);
 
-    computerChoice.src = `assets/images/${choices[computerMove]}.png`;
+    computerChoice.src = `assets/images/${choices[computerMove]}.jpg`;
     computerChoice.alt = choices[computerMove];
 
     if (
-        choices[playerMove] === "rock-hand" && choices[computerMove] === "scissors-hand" ||
-        choices[playerMove] === "scissors-hand" && choices[computerMove] === "paper-hand" ||
-        choices[playerMove] === "paper-hand" && choices[computerMove] === "rock-hand"
+        choices[playerMove] === "rock" && choices[computerMove] === "scissors" ||
+        choices[playerMove] === "scissors" && choices[computerMove] === "paper" ||
+        choices[playerMove] === "paper" && choices[computerMove] === "rock"
         ) {
-        displayResult(`Congratulations! You won!`);
+        displayResult(`Great! You won!`);
         updateScore('your-score');
     
     } else if (
-        choices[playerMove] === "scissors-hand" && choices[computerMove] === "rock-hand" ||
-        choices[playerMove] === "paper-hand" && choices[computerMove] === "scissors-hand" ||
-        choices[playerMove] === "rock-hand" && choices[computerMove] === "paper-hand"
+        choices[playerMove] === "scissors" && choices[computerMove] === "rock" ||
+        choices[playerMove] === "paper" && choices[computerMove] === "scissors" ||
+        choices[playerMove] === "rock" && choices[computerMove] === "paper"
         ) {
         displayResult(`Sorry. You Lost.`);
         updateScore('opponent-score');       
     
     } else if (choices[playerMove] === choices[computerMove]) {
-        displayResult(`It's a Draw`);
+        displayResult(`It is a Draw.`);
     }
 }
 
