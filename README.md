@@ -359,12 +359,29 @@ Testing was carried out by project developer using every device at his disposal,
     - Wait 1-4 minutes
     - Refresh page
     - A link at the top part of the screen will become available
-    - use this link to access the, now published, website
+    - Use this link to access the, now published, website
 <details>
 
   <summary>Link Page screenshot</summary>
 
-   ![Contact Us](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-publish-page-screenshot.jpg)
+   ![Published via GitHub](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/project2-publish-page-screenshot.jpg)
+  
+</details> 
+<br>   
+
+- __Via GitPod__
+    - Open a web browser
+    - Go to address https://github.com/SkyForgerUK/Project_2_RPSSL
+    - Click on "Gitpod" button to launch the application
+    - In TERMINAL section type in command "python3 -m http.server"
+    - A popup window in the right bottom corner will appear
+    - Click on "Open in Browser"
+    - The website will open in a new tab
+<details>
+
+  <summary>Link Page screenshot</summary>
+
+   ![Published via GitPod](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/gitpod-publish-page-screenshot.jpg)
   
 </details> 
 <br>   
