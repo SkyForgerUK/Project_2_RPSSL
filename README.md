@@ -204,7 +204,7 @@ Testing was carried out by project developer using every device at his disposal,
 </details>  
 
 - __JSHint__
-    - On the first try JSHint reported 27 warnings, but no errors:
+    - On the first try JSHint reported 1 warning, but no errors:
         
 <details>
   <summary>JSHint Warning Messages</summary>
