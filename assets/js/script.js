@@ -82,10 +82,7 @@ function initializeGame() {
     let closeModalButtons = document.querySelectorAll('[data-close-button]');
 
     for (let button of buttons) {
-        button.addEventListener('click', function () {
-            let playerMove = this.getAttribute('data-choice');
-            playGame(playerMove);
-        });
+        button.addEventListener('click', initializePlayerMove);
     }
 
     openModalButtons.forEach(button => {
@@ -110,6 +107,11 @@ function initializeGame() {
         });
     });
 
+}
+
+function initializePlayerMove() {
+    let playerMove = this.getAttribute('data-choice');
+    playGame(playerMove);
 }
 
 window.addEventListener('DOMContentLoaded', initializeGame);
