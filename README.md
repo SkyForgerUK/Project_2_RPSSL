@@ -204,11 +204,17 @@ Testing was carried out by project developer using every device at his disposal,
 
 - __JSHint__
     - On the first try JSHint reported 1 warning, but no errors:
+        - Breaking dow a for loop into additional funcyion fixed this    
         
 <details>
   <summary>JSHint Warning Messages</summary>
 
    ![JSHint Warning Messages](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/js-warning.jpg) 
+</details>
+<details>
+  <summary>JSHint No Issues Messages</summary>
+
+   ![JSHint No Issues Messages](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/js-ok.jpg) 
 </details>
 
 <br>
