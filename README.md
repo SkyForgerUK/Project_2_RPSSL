@@ -289,16 +289,21 @@ Testing was carried out by project developer using every device at his disposal,
 ### General Testing
     
 <details>
+
   <summary>Launching and responsiveness</summary>
+
   |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   |Copy url from GitHub and paste it in a browser and hit enter | Browser should load index.html as the landing page | Pass |
   |Scale up the window | The content should be responsive at 1500px and 2200px width marks | Pass |
   |Scale down the window | The content should be responsive at 1500px and 808px width marks | Pass |
   |Scale down under 320px width | The layout should be responsive and fit in a single column without horizontal scroll bar and all text contained until reaching 238px| Pass |
+
 </details>
 <details>
+
   <summary>Landing page</summary>
+  
   |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   | Click on Rules button| A pop-up should open explaining the game's rules and have a visual representation | Pass |
