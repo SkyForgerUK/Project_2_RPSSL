@@ -17,7 +17,7 @@ The Rock Paper Scissors game will provide to the user:
 2. Way to pass time by playing a game of chance
 3. Chance to try his/her luck
 
-![mockup](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/mockup.jpg
+![mockup](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/mockup.jpg)
 
 Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/)
 ## Table of Content
