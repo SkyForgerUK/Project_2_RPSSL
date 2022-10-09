@@ -79,6 +79,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 ## Features left to implement
 - __Main Page__
     - Add Lizard and Spock expansion.
+    - Add reset button, so user can start game over directly from the page.
 
 ## Typography and color scheme
 
