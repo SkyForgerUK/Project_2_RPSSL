@@ -17,7 +17,7 @@ The Rock Paper Scissors game will provide to the user:
 2. Way to pass time by playing a game of chance
 3. Chance to try his/her luck
 
-![mockup](to be added)
+![mockup](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/mockup.jpg
 
 Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/)
 ## Table of Content
@@ -94,7 +94,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 ## Typografy and color scheme
 ### Design
-Simple easy to use design
+Simple, easy to use design
  
 
 - __Fonts__:
@@ -102,13 +102,14 @@ Simple easy to use design
     - Peralta - used for the pop-up rule window
   - __Color Scheme__:  
     - Primary color:
-    ![Primary color](https:/###add primary color snip)
+    ![Primary color](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/primary-color.jpg)
     - Secondary color:
-    ![Secondary color](https:/### add secondary color snip)
-    - Pop-up background color:
-    ![Third color](https:/# add pop-up screen backup color)
+    ![Secondary color](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/secondary-color.jpg)
+    - Website Background color:
+    ![Third color](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/background-color.jpg)
     - Additional colors:
-        - ####delete if none
+        - Font color - Azure
+        - Pop-up screen background color - Azure
 
 
 
