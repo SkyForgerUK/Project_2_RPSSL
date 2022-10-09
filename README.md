@@ -21,7 +21,7 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/
 - [Wireframes](#wireframes)
 - [Technology](#technology)
 - [Testing](#testing)
-  - [Code Validation - HTML, CSS and JavaScript Validation](#code-validation---html,-css-and-javascript-validation)
+  - [Code Validation - HTML, CSS and JavaScript Validation](#code-validation---html-css-and-javascript-validation)
   - [Test Cases](#test-cases)
   - [General Testing](#general-testing)
   - [Fixed Bugs](#fixed-bugs)
@@ -31,6 +31,7 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/
 - [Deployment](#deployment)
 - [Credits](#credits)
 <br>
+
 
 ## User Stories 
 
@@ -173,7 +174,7 @@ Simple, easy to use design
 
 ## Testing
 Testing was carried out by project developer using every device at his disposal, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
-### Code Validation - HTML, CSS and JavaScript validation
+### Code Validation - HTML CSS and JavaScript validation
  - __W3C Markup Validator__
     - On the first try validator reported 1 warning :
         - Section without a h1 was used and was fixed by changing it to div instead
