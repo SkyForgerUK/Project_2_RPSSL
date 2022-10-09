@@ -170,42 +170,37 @@ Simple, easy to use design
     - To validate the HTML code across all pages
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - To validate the CSS
+- [JSHint](https://jshint.com/)
+    - To validate the JavaScript
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
    - To review code and test it during the development process
 - [Am I Responsive? mock-up generator](https://ui.dev/)
     - To generate a mock-up image for the Readme file
-- [Google Maps](https://www.google.co.uk/maps)
-    - To get the embedded maps for Locations page
 - [GitHub](https://github.com/)
     - To store the project and host the finished site
 - [GitPod](https://www.gitpod.io/)
     - To use as a platform for coding
-
--[Chrome Lighthouse extensions](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
 - [Chrome Lighthouse extensions](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
     - For testing the performance of the site
 
 ## Testing
-<!-- Testing was carried out by using every device that was available to the project developer, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
+Testing was carried out by project developer using every device at his disposal, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
 ### Code Validation - HTML and CSS validation
  - __W3C Markup Validator__
-    - On the first try validator reported 4 errors spanning across all pages:
-        - First two were connected and by adding a missed /div they were cleared
-        - Then a stray /i and a stray /a end tags were removed
-    - There was an additional error on the "Contact Us" page:
-        - The identical id values occurred during the multiplying of the code lines, error was cleared by assigning unique id's to two lines
+    - On the first try validator reported 1 warning :
+        - Section without a h1 was used and was fixed by changing it to div instead
 <details>
-  <summary>HTML Error Message</summary>
+  <summary>HTML Warning Message</summary>
  ![HTML Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/html_validator_1st_try.jpg) 
 </details>
 <details>
   <summary>HTML Pass Message</summary>
    ![HTML Pass Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/html_validator_pass.jpg) 
 </details>
+
 - __W3C CSS Validator__
-    - On the first try validator reported 3 errors:
-        - Two text-align errors with duplicating center value, cleared by removing the duplicating value
-        - Last error was a value error on Google embedded maps where % cannot be used, fixed by applying a large enough value to cover the width needed
+    - On the first try validator reported 1 errors:
+        - An incorrect padding-bottom value was used, as the line was not neccessary, error was fixerd by deleting it. 
 <details>
   <summary>CSS Error Message</summary>
    ![CSS Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_1st_try.jpg) 
@@ -213,8 +208,17 @@ Simple, easy to use design
 <details>
   <summary>CSS Pass Message</summary>
    ![CSS Pass Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_pass.jpg) 
-</details>       
-<br> -->
+</details>  
+
+- __JSHint__
+    - On the first try JSHint reported 27 warnings, but no errors:
+        
+<details>
+  <summary>JSHint Warning Messages</summary>
+   ![CSS Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_1st_try.jpg) 
+</details>
+
+<br>
 ### Test cases 
 <br>
 
