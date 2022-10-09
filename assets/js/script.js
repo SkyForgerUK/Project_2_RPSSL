@@ -2,7 +2,6 @@
  * declare contants for all DOM elements
  * and CHOICES 
  */
-
 const CHOICES = ['rock', 'paper', 'scissors'];
 let overlay = document.getElementById('overlay');
 
@@ -10,7 +9,6 @@ let overlay = document.getElementById('overlay');
  * Playermove records players choice using 'click' listener and returns a value
  * to match up with the randomly generated computer value and declare the winner and update the current score
  */
-
 function playGame(playerMove) {
     let playerChoice = document.getElementById('your-card');
     let computerChoice = document.getElementById('opponent-card');
@@ -23,25 +21,29 @@ function playGame(playerMove) {
     computerChoice.src = `assets/images/${CHOICES[computerMove]}.jpg`;
     computerChoice.alt = CHOICES[computerMove];
 
-    if (
-        CHOICES[playerMove] === "rock" && CHOICES[computerMove] === "scissors" ||
-        CHOICES[playerMove] === "scissors" && CHOICES[computerMove] === "paper" ||
-        CHOICES[playerMove] === "paper" && CHOICES[computerMove] === "rock"
-    ) {
+    if (isPlayerWon(playerMove, computerMove)) {
         displayResult(`Great! You won!`);
         updateScore('your-score');
 
-    } else if (
-        CHOICES[playerMove] === "scissors" && CHOICES[computerMove] === "rock" ||
-        CHOICES[playerMove] === "paper" && CHOICES[computerMove] === "scissors" ||
-        CHOICES[playerMove] === "rock" && CHOICES[computerMove] === "paper"
-    ) {
+    } else if (isPlayerLost(playerMove, computerMove)) {
         displayResult(`Sorry. You Lost.`);
         updateScore('opponent-score');
 
     } else if (CHOICES[playerMove] === CHOICES[computerMove]) {
         displayResult(`It is a Draw.`);
     }
+}
+
+function isPlayerWon(playerMove, computerMove) {
+    return (CHOICES[playerMove] === "rock" && CHOICES[computerMove] === "scissors") ||
+        (CHOICES[playerMove] === "scissors" && CHOICES[computerMove] === "paper") ||
+        (CHOICES[playerMove] === "paper" && CHOICES[computerMove] === "rock");
+}
+
+function isPlayerLost(playerMove, computerMove) {
+    return (CHOICES[playerMove] === "scissors" && CHOICES[computerMove] === "rock") ||
+        (CHOICES[playerMove] === "paper" && CHOICES[computerMove] === "scissors") ||
+        (CHOICES[playerMove] === "rock" && CHOICES[computerMove] === "paper");
 }
 
 function updateScore(newScore) {
@@ -58,7 +60,6 @@ function displayResult(resultMessage) {
 /**
  * Pop-up button code allows for opening ang closing of the pop-up button
  */
-
 function openModal(modal) {
     if (modal == null) return;
     modal.classList.add('active');
@@ -75,7 +76,6 @@ function closeModal(modal) {
  * InitializeGame function contains event listener for players choice and click on pop-up button
  * which is run as soon as the DOMContentLoaded has been verified
  */
-
 function initializeGame() {
     let buttons = document.getElementsByClassName('button');
     let openModalButtons = document.querySelectorAll('[data-modal-target]');
@@ -114,4 +114,7 @@ function initializePlayerMove() {
     playGame(playerMove);
 }
 
+/*
+* Wait for the DOM to finish loadingbefore running games
+ */
 window.addEventListener('DOMContentLoaded', initializeGame);
