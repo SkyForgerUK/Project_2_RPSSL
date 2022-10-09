@@ -21,7 +21,7 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/
 - [Wireframes](#wireframes)
 - [Technology](#technology)
 - [Testing](#testing)
-  - [Code Validation - HTML and CSS Validation](#code-validation---html-and-css-validation)
+  - [Code Validation - HTML, CSS and JavaScript Validation](#code-validation---html-,-css-and-javascript-validation)
   - [Test Cases](#test-cases)
   - [General Testing](#general-testing)
   - [Fixed Bugs](#fixed-bugs)
@@ -65,18 +65,20 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 <details>
   <summary>Landing Page screenshot</summary>
- ![Landing Page screenshot](####add landing page)
+
+ ![Landing Page screenshot](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/screenshot-main.jpg)
 </details>
 <br>
 <details>
   <summary>Pop-up page screenshot</summary>
- ![Pop-up page screenshot](#to add screenshot)
+
+ ![Pop-up page screenshot](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/pop-up-screen.jpg)
 </details>
 <br>
 
 ## Features left to implement
 - __Main Page__
-    - Add Lizard and Spock option.
+    - Add Lizard and Spock expansion.
 
 ## Typography and color scheme
 
@@ -171,7 +173,7 @@ Simple, easy to use design
 
 ## Testing
 Testing was carried out by project developer using every device at his disposal, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
-### Code Validation - HTML and CSS validation
+### Code Validation - HTML, CSS and JavaScript validation
  - __W3C Markup Validator__
     - On the first try validator reported 1 warning :
         - Section without a h1 was used and was fixed by changing it to div instead
