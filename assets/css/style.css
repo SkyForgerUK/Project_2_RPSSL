@@ -1,319 +1,267 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&family=Silkscreen&display=swap');
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0.1%;
-    padding: 0.1%;
+ *, *::before, *::after {
+     box-sizing: border-box;
+     margin: 0.1%;
+     padding: 0.1%;
 }
-
 /* ------ Global style */
-
-body {
-    background-color: #272726;
-    margin-left: 20%;
-    margin-top: 5%;
-    color: azure;
-    margin-right: 20%;
-    max-width: 60%;
-    border: 2px solid white;
-    font-family: 'Silkscreen', cursive;
+ body {
+     background-color: #272726;
+     margin-left: 20%;
+     margin-top: 5%;
+     color: azure;
+     margin-right: 20%;
+     max-width: 60%;
+     border: 2px solid white;
+     font-family: 'Silkscreen', cursive;
 }
-
 /* ------ Heading */
-
-.heading {
-    background-color: #5c5c5c;
-    display: flex;
-    padding: 0.3rem;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 10%;
+ .heading {
+     background-color: #5c5c5c;
+     display: flex;
+     padding: 0.3rem;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 10%;
 }
-
-.heading-content {
-    width: 30%;
+ .heading-content {
+     width: 30%;
 }
-
 /* ------ Main Section */
-
-.game-area {
-    background-color: #949494;
-    width: 100%;
+ .game-area {
+     background-color: #949494;
+     width: 100%;
 }
-
-#score-area {
-    width: 99.9%;
-    background-color: #949494;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.7rem;
-    text-shadow: 0px 5px 20px black;
+ #score-area {
+     width: 99.9%;
+     background-color: #949494;
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+     font-weight: bold;
+     font-size: 1.7rem;
+     text-shadow: 0px 5px 20px black;
 }
-
-.score {
-    display: inline-block;
-    width: 96%;
-    margin: 1% 2%;
+ .score {
+     display: inline-block;
+     width: 96%;
+     margin: 1% 2%;
 }
-
-.identifier {
-    background-color: #949494;
-    width: 99.9%;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: auto;
-    font-size: 1.1rem;
+ .identifier {
+     background-color: #949494;
+     width: 99.9%;
+     display: flex;
+     flex-direction: row;
+     padding-bottom: auto;
+     font-size: 1.1rem;
 }
-
-.chosen-cards-area {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #949494;
-    padding-bottom: 2%;
-    height: 40%;
+ .chosen-cards-area {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #949494;
+     padding-bottom: 2%;
+     height: 40%;
 }
-
-.chosen-cards {
-    width: 50%;
-    height: auto;
-    padding: 0 4%;
-    text-align: center;
+ .chosen-cards {
+     width: 50%;
+     height: auto;
+     padding: 0 4%;
+     text-align: center;
 }
-
-.question-card {
-    width: 66%;
-    height: auto;
+ .question-card {
+     width: 66%;
+     height: auto;
 }
-
-.chosen-cards>p {
-    font-weight: bold;
+ .chosen-cards>p {
+     font-weight: bold;
 }
-
-.interaction-text-area {
-    width: 100%;
-    background-color: #949494;
-    padding: 0 20%;
+ .interaction-text-area {
+     width: 100%;
+     background-color: #949494;
+     padding: 0 20%;
 }
-
-#interaction-text {
-    width: 100%;
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-align: center;
-    border: 1px solid white;
-    background-color: #5c5c5c;
-    padding: 2% 0;
-    margin: 2% 0;
+ #interaction-text {
+     width: 100%;
+     font-size: 1.8rem;
+     font-weight: bold;
+     text-align: center;
+     border: 1px solid white;
+     background-color: #5c5c5c;
+     padding: 2% 0;
+     margin: 2% 0;
 }
-
-.button-div {
-    width: 100%;
-    margin: 0;
-    padding: 0 5%;
-    display: flex;
-    justify-content: space-between;
+ .button-div {
+     width: 100%;
+     margin: 0;
+     padding: 0 5%;
+     display: flex;
+     justify-content: space-between;
 }
-
-.button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    max-width: 33.3%;
-    height: auto;
+ .button {
+     cursor: pointer;
+     border: none;
+     outline: none;
+     background: none;
+     max-width: 33.3%;
+     height: auto;
 }
-
-.btn-image {
-    width: 90%;
-    height: auto;
+ .btn-image {
+     width: 90%;
+     height: auto;
 }
-
 /* ------ Footer */
-
-.footer {
-    text-align: center;
-    background-color: #5c5c5c;
-    font-weight: bold;
-    font-size: 1.6rem;
-    padding: 2% 0;
+ .footer {
+     text-align: center;
+     background-color: #5c5c5c;
+     font-weight: bold;
+     font-size: 1.6rem;
+     padding: 2% 0;
 }
-
 /* ------ Pop-up button */
-
-.modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
-    z-index: 10;
-    background-color: azure;
-    width: 500px;
-    max-width: 80%;
-    font-family: 'Peralta', cursive;
-    color: black;
+ .modal {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%) scale(0);
+     transition: 200ms ease-in-out;
+     border: 1px solid black;
+     border-radius: 10px;
+     z-index: 10;
+     background-color: azure;
+     width: 500px;
+     max-width: 80%;
+     font-family: 'Peralta', cursive;
+     color: black;
 }
-
-.modal.active {
-    transform: translate(-50%, -50%) scale(1);
+ .modal.active {
+     transform: translate(-50%, -50%) scale(1);
 }
-
-.modal-header {
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
+ .modal-header {
+     padding: 10px 15px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid black;
 }
-
-.modal-header .title {
-    font-size: 1.25rem;
-    font-weight: bold;
+ .modal-header .title {
+     font-size: 1.25rem;
+     font-weight: bold;
 }
-
-.modal-header .close-button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold;
+ .modal-header .close-button {
+     cursor: pointer;
+     border: none;
+     outline: none;
+     background: none;
+     font-size: 1.25rem;
+     font-weight: bold;
 }
-
-.modal-body {
-    padding: 10px 15px;
-    font-size: 1.2rem;
+ .modal-body {
+     padding: 10px 15px;
+     font-size: 1.2rem;
 }
-
-.modal-body>p {
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
+ .modal-body>p {
+     border-bottom: 1px solid black;
+     padding-bottom: 10px;
 }
-
-.modal-body>img {
-    max-width: 100%;
+ .modal-body>img {
+     max-width: 100%;
 }
-
-#overlay {
-    position: fixed;
-    opacity: 0;
-    transition: 200ms ease-in-out;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    pointer-events: none;
+ #overlay {
+     position: fixed;
+     opacity: 0;
+     transition: 200ms ease-in-out;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.5);
+     pointer-events: none;
 }
-
-#overlay.active {
-    opacity: 1;
-    pointer-events: all;
+ #overlay.active {
+     opacity: 1;
+     pointer-events: all;
 }
-
-.mod-button {
-    cursor: pointer;
-    border: 1px solid azure;
-    border-radius: 10px;
-    outline: none;
-    background: #949494;
-    color: azure;
-    font-size: 1.1rem;
-    padding: 3px;
-    font-family: 'Peralta', cursive;
+ .mod-button {
+     cursor: pointer;
+     border: 1px solid azure;
+     border-radius: 10px;
+     outline: none;
+     background: #949494;
+     color: azure;
+     font-size: 1.1rem;
+     padding: 3px;
+     font-family: 'Peralta', cursive;
 }
-
 /* ------ responsive styling */
-
-@media screen and (max-width: 2200px) {
-    body {
-        margin-left: 15%;
-        margin-right: 15%;
-        max-width: 70%;
+ @media screen and (max-width: 2200px) {
+     body {
+         margin-left: 15%;
+         margin-right: 15%;
+         max-width: 70%;
     }
 }
-
-@media screen and (max-width: 1966px) {
-    body {
-        margin-left: 12%;
-        margin-right: 12%;
-        max-width: 76%;
+ @media screen and (max-width: 1966px) {
+     body {
+         margin-left: 12%;
+         margin-right: 12%;
+         max-width: 76%;
     }
 }
-
-@media screen and (max-width: 1700px) {
-    body {
-        margin-left: 10%;
-        margin-right: 10%;
-        max-width: 80%;
+ @media screen and (max-width: 1700px) {
+     body {
+         margin-left: 10%;
+         margin-right: 10%;
+         max-width: 80%;
     }
 }
-
-@media screen and (max-width: 1500px) {
-    body {
-        margin-left: 8%;
-        margin-right: 8%;
-        max-width: 84%;
+ @media screen and (max-width: 1500px) {
+     body {
+         margin-left: 8%;
+         margin-right: 8%;
+         max-width: 84%;
     }
 }
-
-@media screen and (max-width: 808px) {
-    #score-area {
-        flex-direction: column;
-        font-size: 1.4rem;
-        padding: 5% 0;
+ @media screen and (max-width: 808px) {
+     #score-area {
+         flex-direction: column;
+         font-size: 1.4rem;
+         padding: 5% 0;
     }
-
-    #interaction-text {
-        font-size: 1.7rem;
+     #interaction-text {
+         font-size: 1.7rem;
     }
-
-    .question-card {
-        width: 90%;
-        height: auto;
+     .question-card {
+         width: 90%;
+         height: auto;
     }
-
-    body {
-        margin-top: 10%;
+     body {
+         margin-top: 10%;
     }
-
-    .modal-body {
-        font-size: 0.9rem;
+     .modal-body {
+         font-size: 0.9rem;
     }
 }
-
-@media screen and (max-width: 320px) {
-    #score-area {
-        font-size: 0.9rem;
+ @media screen and (max-width: 320px) {
+     #score-area {
+         font-size: 0.9rem;
     }
-
-    #interaction-text {
-        font-size: 1.1rem;
+     #interaction-text {
+         font-size: 1.1rem;
     }
-
-    .heading {
-        font-size: 0.7rem;
+     .heading {
+         font-size: 0.7rem;
     }
-
-    .identifier {
-        font-size: 0.8rem;
+     .identifier {
+         font-size: 0.8rem;
     }
-
-    .footer {
-        font-size: 1.1rem;
+     .footer {
+         font-size: 1.1rem;
     }
-
-    .modal-body {
-        font-size: 0.7rem;
+     .modal-body {
+         font-size: 0.7rem;
     }
 }

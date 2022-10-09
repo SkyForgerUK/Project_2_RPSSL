@@ -93,20 +93,28 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
     - Add Lizard and Spock option.
 
 ## Typografy and color scheme
+
 ### Design
+
 Simple, easy to use design
  
 
 - __Fonts__:
     - Silkscreen - used as a base font for the site
     - Peralta - used for the pop-up rule window
-  - __Color Scheme__:  
+
+- __Color Scheme__:  
+  
     - Primary color:
+
     ![Primary color](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/primary-color.jpg)
     - Secondary color:
+
     ![Secondary color](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/secondary-color.jpg)
     - Website Background color:
+
     ![Third color](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/background-color.jpg)
+
     - Additional colors:
         - Font color - Azure
         - Pop-up screen background color - Azure
@@ -151,10 +159,10 @@ Simple, easy to use design
 - [Balsamiq Wireframes](https://balsamiq.com/)
     - To create wireframe design outlay
 - [Google Fonts](https://fonts.google.com/)
-    <!-- - To acquire 'Lato' and 'Merriweather' font to use on the site -->
+    - To acquire 'Silkscreen' and 'Peralta' font to use on the site
 - [Clean css](https://www.cleancss.com/css-beautify/) 
     - CSS formatting tool
-- [Google rgb color picker](https://www.google.com/search?q=rgb+color+picker&rlz=1C1GCEB_enGB1012GB1012&oq=rgb+color&aqs=chrome.0.0i433i512j69i57j0i512l8.3968j0j7&sourceid=chrome&ie=UTF-8)
+- [Color Hex color codes](https://www.color-hex.com/)
     - For choosing the colors for the whole site
 - [Font Awesome](https://fontawesome.com/)
     - For adding icons to Home and Mr. Pancake pages
