@@ -39,7 +39,6 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/
     - To easily understand the purpose of the website.
     - To be able to find out the rules of the game without using external resources.
     - To easily access the rules section and close it at any time.
-    - To be able to easly operate the game.
     - To easily chose one of the options.
     - To be able to see the result of the round.
     - To be able to see the score.
@@ -245,18 +244,7 @@ Testing was carried out by project developer using every device at his disposal,
 </details>  
 <br>
 
-- To be able to easily operate the game.
-    - The clickable buttons allow for an easy use of the game. Only mouse or mobile screen is needed top play the game. 
-<details>
-
-  <summary>Game area screenshot</summary>
-
-   ![Game area](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/game-area-screenshot.jpg) 
-
-</details> 
-<br> 
-
-- To easily chose one of the options..
+- To easily chose one of the options.
     - Three clickable cards holding the familiar "Rock Paper Scissors" symbols are easily visible under the dynamic text area. 
 
  <details>
@@ -320,8 +308,8 @@ Testing was carried out by project developer using every device at his disposal,
     350px - used @media to style it so text is contained.
 
  ### Not fixed bugs
- - __On tall and narrow devices the game area does not fill the screen length enough for an aesthetic look__
-    - This bug will be fixed after project submission   
+ - __No bugs found__
+
   <br>  
 
 ### Supported Screens, Browsers and Performance
