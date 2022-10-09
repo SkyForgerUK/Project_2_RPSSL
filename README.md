@@ -98,8 +98,8 @@ Simple easy to use design
  
 
 - __Fonts__:
-    - ###Choose font - used as a base font on the whole site
-    - ####choose - used for most headers and to give a bit of visual diversity
+    - Silkscreen - used as a base font for the site
+    - Peralta - used for the pop-up rule window
   - __Color Scheme__:  
     - Primary color:
     ![Primary color](https:/###add primary color snip)
@@ -163,7 +163,7 @@ Simple easy to use design
     - To validate the CSS
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
    - To review code and test it during the development process
-- [Multi device mock-up generator](https://techsini.com/multi-mockup/)
+- [Am I Responsive? mock-up generator](https://ui.dev/)
     - To generate a mock-up image for the Readme file
 - [Google Maps](https://www.google.co.uk/maps)
     - To get the embedded maps for Locations page
