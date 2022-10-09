@@ -1,13 +1,4 @@
 
-
-* rock D Johnson image from https://theprofile.substack.com/
-* rules image from https://en.wikipedia.org/wiki/Rock_paper_scissors
-* question mark from pexels.com https://www.pexels.com/photo/question-mark-on-chalk-board-356079/
-* individual images of RPS from git hub user https://github.com/DavidSamir/Rock-Paper-Scissors-Lizard-Spock
-* white background ones https://www.rockpaperscissors30a.com/
-
-
-
 # Rock Paper Scissors  game
 Traditional Rock Paper Scissors game providing unlimited fun in simple format. 
 
@@ -58,13 +49,13 @@ There is one Home page including:
 - Landing page
 - Pop-up window explaining the rules of the game
 
-## Navigation Bar and Footer
+### Navigation Bar and Footer
 Both Nav bar and footer are responsive to the size of the screen being used to read the website.
 - __Navigation Bar:__
     - Nav bar holds abreviation of the game's full name and a stylised button that brings up rules contained in a pop-up window.
 - __Footer:__
     - Footer contains full name of the game and is used to give the site a better overal look.
-## Landing Page
+### Landing Page
 - __Game Area:__
     - Holds the:
         - Score area - where the current score is kept
@@ -147,13 +138,13 @@ Simple, easy to use design
 
 ## Technology
 
-- __Languages__
+### Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS) 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 
 
-- __Software and Framework Libraries__
+### Software and Framework Libraries
 - [Balsamiq Wireframes](https://balsamiq.com/)
     - To create wireframe design outlay
 - [Google Fonts](https://fonts.google.com/)
@@ -340,7 +331,7 @@ Testing was carried out by project developer using every device at his disposal,
 - iPhone 13 Pro
 - iPhone 11
 - Screen virtual compatibility tested using Google DevTools:
-    - Min responsive screen size tested - 304px
+    - Min responsive screen size tested - 238px
     - Max responsive screen size tested - 2560px
 ### Performance
 - Performance tested using Chrome Lighthouse extension.
@@ -380,15 +371,13 @@ Testing was carried out by project developer using every device at his disposal,
 
 ## Credits
 ### Content
-- All content written by the project developer, except of:
-  - The Dachshund breed summary which was taken from [dogtime.com](https://dogtime.com/dog-breeds/dachshund#/slide/1)
-  - The Nuneaton town information which was taken from [Wikipedia](https://en.wikipedia.org/wiki/Nuneaton)
-- The icons in footer and in main section on Home Page and Mr. Pancake page are taken from [Font Awesome](https://fontawesome.com/)
-- Fonts 'Lato' and 'Merriweather' where taken from [Google Fonts](https://fonts.google.com/)
+- All content created by the project developer, except of:
+  - For JS code for modal pop-up button a video from Youtube user"Web Dev Simplified" was followed [Youtube](https://www.youtube.com/watch?v=MBaw_6cPmAw&t=1s)
+- Fonts 'Silkscreen' and 'Peralta' where taken from [Google Fonts](https://fonts.google.com/)
 - For help with the code [w3schools](https://www.w3schools.com/) was used 
 ### Media
-- Header Puppy Logo was taken from [KindPng](kindpng.com)
-- All the images in the Gallery taken from project developers personal collection
-- All images on the site are project developers personal images, except of:
-    - Background image for Locations and Home page meet up times taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:Cotswolds_Panorama_Fields.jpg)
-    - Background image for Contact Us page taken from [FreeImages](https://www.freeimages.com/)
+- Rules image which was taken from [Wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors)
+- The question mark image was taken from [Pexels.com](https://www.pexels.com/photo/question-mark-on-chalk-board-356079/)
+- The 3 images used for choice cards were taken from [Github user DavidSamir](https://github.com/DavidSamir/Rock-Paper-Scissors-Lizard-Spock)
+- The 3 images used for Reult area were taken from [rockpaperscissors30a](https://www.rockpaperscissors30a.com/)
+
