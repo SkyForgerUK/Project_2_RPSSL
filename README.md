@@ -21,7 +21,7 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/
 - [Wireframes](#wireframes)
 - [Technology](#technology)
 - [Testing](#testing)
-  - [Code Validation - HTML, CSS and JavaScript Validation](#code-validation---html-,-css-and-javascript-validation)
+  - [Code Validation - HTML, CSS and JavaScript Validation](#code-validation---html,-css-and-javascript-validation)
   - [Test Cases](#test-cases)
   - [General Testing](#general-testing)
   - [Fixed Bugs](#fixed-bugs)
