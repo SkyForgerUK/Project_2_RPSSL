@@ -17,7 +17,7 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Project_2_RPSSL/
   - [Navigation Bar and Footer](#navigation-bar-and-footer)
   - [Landing Page](#landing-page)
 - [Features Left To Implement](#features-left-to-implement)
-- [Typografy and Color Scheme](#typografy-and-color-scheme)
+- [Typography and Color Scheme](#typografy-and-color-scheme)
 - [Wireframes](#wireframes)
 - [Technology](#technology)
 - [Testing](#testing)
@@ -52,9 +52,9 @@ There is one Home page including:
 ### Navigation Bar and Footer
 Both Nav bar and footer are responsive to the size of the screen being used to read the website.
 - __Navigation Bar:__
-    - Nav bar holds abreviation of the game's full name and a stylised button that brings up rules contained in a pop-up window.
+    - Nav bar holds abbreviation of the game's full name and a stylised button that brings up rules contained in a pop-up window.
 - __Footer:__
-    - Footer contains full name of the game and is used to give the site a better overal look.
+    - Footer contains full name of the game and is used to give the site a better overall look.
 ### Landing Page
 - __Game Area:__
     - Holds the:
@@ -78,7 +78,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 - __Main Page__
     - Add Lizard and Spock option.
 
-## Typografy and color scheme
+## Typography and color scheme
 
 ### Design
 
@@ -104,9 +104,6 @@ Simple, easy to use design
     - Additional colors:
         - Font color - Azure
         - Pop-up screen background color - Azure
-
-
-
 
 ## Wireframes
 
@@ -191,7 +188,7 @@ Testing was carried out by project developer using every device at his disposal,
 
 - __W3C CSS Validator__
     - On the first try validator reported 1 errors:
-        - An incorrect padding-bottom value was used, as the line was not neccessary, error was fixerd by deleting it
+        - An incorrect padding-bottom value was used, as the line was not necessary, error was fixed by deleting it
 <details>
   <summary>CSS Error Message</summary>
 
@@ -230,11 +227,11 @@ Testing was carried out by project developer using every device at his disposal,
 <br>
 
 - To be able to find out the rules of the game without using external resources.
-    - At the top right of the page is a clickable button that brings up a pop-up screen which explaines the rules in written format and with a help of a diagram.
+    - At the top right of the page is a clickable button that brings up a pop-up screen which explains the rules in written format and with a help of a diagram.
 <br>
 
 - To easily access the rules section and close it at any time.
-    - The pop-up button is vissible at all time, to be reached easely and when open the user can either click on the "x" in the top right corner of the pop-up or click anywhere ousider the pop-up.
+    - The pop-up button is visible at all time, to be reached easily and when open the user can either click on the "x" in the top right corner of the pop-up or click anywhere outside the pop-up.
 <details>
 
   <summary>Pop-up screenshot</summary>
@@ -245,7 +242,7 @@ Testing was carried out by project developer using every device at his disposal,
 </details>  
 <br>
 
-- To be able to easly operate the game.
+- To be able to easily operate the game.
     - The clickable buttons allow for an easy use of the game. Only mouse or mobile screen is needed top play the game. 
 <details>
 
@@ -257,7 +254,7 @@ Testing was carried out by project developer using every device at his disposal,
 <br> 
 
 - To easily chose one of the options..
-    - Three clickable cards holding the familiar "Rock Paper Scissors" symbols are easely visible under the dynamic text area. 
+    - Three clickable cards holding the familiar "Rock Paper Scissors" symbols are easily visible under the dynamic text area. 
 
  <details>
   <summary>Three cards screenshot</summary>
@@ -295,7 +292,7 @@ Testing was carried out by project developer using every device at his disposal,
   |Copy url from GitHub and paste it in a browser and hit enter | Browser should load index.html as the landing page | Pass |
   |Scale up the window | The content should be responsive at 1500px and 2200px width marks | Pass |
   |Scale down the window | The content should be responsive at 1500px and 808px width marks | Pass |
-  |Scale down under 320px width | The layout should be responsive and fit in a single column without horizontal scroll bar and all text coontained until reaching 238px| Pass |
+  |Scale down under 320px width | The layout should be responsive and fit in a single column without horizontal scroll bar and all text contained until reaching 238px| Pass |
 </details>
 <details>
   <summary>Landing page</summary>
@@ -303,7 +300,7 @@ Testing was carried out by project developer using every device at his disposal,
   |-------|--------------------|-------|
   | Click on Rules button| A pop-up should open explaining the game's rules and have a visual representation | Pass |
   | Click on "x" or anywhere outside of Pop-up window | Pop-up window should close| Pass |
-  | Click on one of the 3 cards | Question cardsshoudl change to the chosen one for the player and responsivly for computer, result of both choise should be shown in text area and score should update| Pass |
+  | Click on one of the 3 cards | Question cards should change to the chosen one for the player and responsively for computer, result of both choices should be shown in text area and score should update| Pass |
   
   
 </details>
@@ -311,11 +308,11 @@ Testing was carried out by project developer using every device at his disposal,
   
 ### Fixed bugs
 - __Score Area text too big for screen__
-    - Text was going over screen boundaries for screensizes with widh below 
+    - Text was going over screen boundaries for screen sizes with width below 
     350px - used @media to style it so text is contained.
 
  ### Not fixed bugs
- - __On tall and narrow devices the game area does not fill the screen lenght enough for an esthetic look__
+ - __On tall and narrow devices the game area does not fill the screen length enough for an aesthetic look__
     - This bug will be fixed after project submission   
   <br>  
 
@@ -372,12 +369,13 @@ Testing was carried out by project developer using every device at his disposal,
 ## Credits
 ### Content
 - All content created by the project developer, except of:
-  - For JS code for modal pop-up button a video from Youtube user"Web Dev Simplified" was followed [Youtube](https://www.youtube.com/watch?v=MBaw_6cPmAw&t=1s)
+  - For JS code for modal pop-up button a video from YouTube user "Web Dev Simplified" was followed [YouTube](https://www.youtube.com/watch?v=MBaw_6cPmAw&t=1s)
 - Fonts 'Silkscreen' and 'Peralta' where taken from [Google Fonts](https://fonts.google.com/)
 - For help with the code [w3schools](https://www.w3schools.com/) was used 
 ### Media
 - Rules image which was taken from [Wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors)
 - The question mark image was taken from [Pexels.com](https://www.pexels.com/photo/question-mark-on-chalk-board-356079/)
-- The 3 images used for choice cards were taken from [Github user DavidSamir](https://github.com/DavidSamir/Rock-Paper-Scissors-Lizard-Spock)
-- The 3 images used for Reult area were taken from [rockpaperscissors30a](https://www.rockpaperscissors30a.com/)
+- The 3 images used for choice cards were taken from [GitHub user DavidSamir](https://github.com/DavidSamir/Rock-Paper-Scissors-Lizard-Spock)
+- The 3 images used for Result area were taken from [rockpaperscissors30a](https://www.rockpaperscissors30a.com/)
+
 
