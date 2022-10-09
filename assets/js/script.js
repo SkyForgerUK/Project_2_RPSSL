@@ -1,9 +1,9 @@
 /**
  * declare contants for all DOM elements
- * and choices 
+ * and CHOICES 
  */
 
-const choices = ['rock', 'paper', 'scissors'];
+const CHOICES = ['rock', 'paper', 'scissors'];
 let overlay = document.getElementById('overlay');
 
 /**
@@ -15,31 +15,31 @@ function playGame(playerMove) {
     let playerChoice = document.getElementById('your-card');
     let computerChoice = document.getElementById('opponent-card');
 
-    playerChoice.src = `assets/images/${choices[playerMove]}.jpg`;
-    playerChoice.alt = choices[playerMove];
+    playerChoice.src = `assets/images/${CHOICES[playerMove]}.jpg`;
+    playerChoice.alt = CHOICES[playerMove];
 
     let computerMove = Math.floor(Math.random() * 3);
 
-    computerChoice.src = `assets/images/${choices[computerMove]}.jpg`;
-    computerChoice.alt = choices[computerMove];
+    computerChoice.src = `assets/images/${CHOICES[computerMove]}.jpg`;
+    computerChoice.alt = CHOICES[computerMove];
 
     if (
-        choices[playerMove] === "rock" && choices[computerMove] === "scissors" ||
-        choices[playerMove] === "scissors" && choices[computerMove] === "paper" ||
-        choices[playerMove] === "paper" && choices[computerMove] === "rock"
+        CHOICES[playerMove] === "rock" && CHOICES[computerMove] === "scissors" ||
+        CHOICES[playerMove] === "scissors" && CHOICES[computerMove] === "paper" ||
+        CHOICES[playerMove] === "paper" && CHOICES[computerMove] === "rock"
     ) {
         displayResult(`Great! You won!`);
         updateScore('your-score');
 
     } else if (
-        choices[playerMove] === "scissors" && choices[computerMove] === "rock" ||
-        choices[playerMove] === "paper" && choices[computerMove] === "scissors" ||
-        choices[playerMove] === "rock" && choices[computerMove] === "paper"
+        CHOICES[playerMove] === "scissors" && CHOICES[computerMove] === "rock" ||
+        CHOICES[playerMove] === "paper" && CHOICES[computerMove] === "scissors" ||
+        CHOICES[playerMove] === "rock" && CHOICES[computerMove] === "paper"
     ) {
         displayResult(`Sorry. You Lost.`);
         updateScore('opponent-score');
 
-    } else if (choices[playerMove] === choices[computerMove]) {
+    } else if (CHOICES[playerMove] === CHOICES[computerMove]) {
         displayResult(`It is a Draw.`);
     }
 }
