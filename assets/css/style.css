@@ -245,25 +245,25 @@ body {
 
 @media screen and (max-width: 1966px) {
     body {
+        margin-left: 12%;
+        margin-right: 12%;
+        max-width: 76%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    body {
         margin-left: 10%;
         margin-right: 10%;
         max-width: 80%;
     }
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1500px) {
     body {
         margin-left: 8%;
         margin-right: 8%;
         max-width: 84%;
-    }
-}
-
-@media screen and (max-width: 1500px) {
-    body {
-        margin-left: 6%;
-        margin-right: 6%;
-        max-width: 88%;
     }
 }
 
