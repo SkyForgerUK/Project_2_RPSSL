@@ -191,11 +191,13 @@ Testing was carried out by project developer using every device at his disposal,
         - Section without a h1 was used and was fixed by changing it to div instead
 <details>
   <summary>HTML Warning Message</summary>
- ![HTML Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/html_validator_1st_try.jpg) 
+
+ ![HTML Error Message](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/html-warning.jpg) 
 </details>
 <details>
   <summary>HTML Pass Message</summary>
-   ![HTML Pass Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/html_validator_pass.jpg) 
+
+   ![HTML Pass Message](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/html-ok.jpg) 
 </details>
 
 - __W3C CSS Validator__
@@ -203,11 +205,13 @@ Testing was carried out by project developer using every device at his disposal,
         - An incorrect padding-bottom value was used, as the line was not neccessary, error was fixerd by deleting it. 
 <details>
   <summary>CSS Error Message</summary>
-   ![CSS Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_1st_try.jpg) 
+
+   ![CSS Error Message](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/css-error.jpg) 
 </details>
 <details>
   <summary>CSS Pass Message</summary>
-   ![CSS Pass Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_pass.jpg) 
+
+   ![CSS Pass Message](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/css-ok.jpg) 
 </details>  
 
 - __JSHint__
@@ -215,10 +219,12 @@ Testing was carried out by project developer using every device at his disposal,
         
 <details>
   <summary>JSHint Warning Messages</summary>
-   ![CSS Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_1st_try.jpg) 
+
+   ![JSHint Warning Messages](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/js-warning.jpg) 
 </details>
 
 <br>
+
 ### Test cases 
 <br>
 
@@ -229,7 +235,7 @@ Testing was carried out by project developer using every device at his disposal,
 <details>
   <summary>Purpose screenshot</summary>
 
-   ![Purpose](###add the landing page screenshot) 
+   ![Purpose](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/screenshot-main.jpg) 
 
 </details>  
 <br>
@@ -244,7 +250,7 @@ Testing was carried out by project developer using every device at his disposal,
 
   <summary>Pop-up screenshot</summary>
 
-   ![Pop-up](###add pop up screenshot )
+   ![Pop-up](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/pop-up-screen.jpg)
  
    
 </details>  
@@ -253,9 +259,11 @@ Testing was carried out by project developer using every device at his disposal,
 - To be able to easly operate the game.
     - The clickable buttons allow for an easy use of the game. Only mouse or mobile screen is needed top play the game. 
 <details>
+
   <summary>Game area screenshot</summary>
 
-   ![Game area](http:// #add game are screenshot) 
+   ![Game area](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/game-area-screenshot.jpg) 
+
 </details> 
 <br> 
 
@@ -265,7 +273,7 @@ Testing was carried out by project developer using every device at his disposal,
  <details>
   <summary>Three cards screenshot</summary>
 
-   ![Three cards](https:/###add 3 cards screenshot) 
+   ![Three cards](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/3cards-area-screenshot.jpg) 
 </details> 
 
 <br>    
@@ -275,7 +283,7 @@ Testing was carried out by project developer using every device at his disposal,
 <details>
   <summary>Results area screenshot</summary>
 
-   ![Results area](https://###add result area screenshot) 
+   ![Results area](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/result-area-screenshot.jpg) 
 </details> 
 
 <br> 
@@ -285,7 +293,7 @@ Testing was carried out by project developer using every device at his disposal,
 <details>
   <summary>Score area screenshot</summary>
 
-   ![Score area](https://###add score area screenshot) 
+   ![Score area](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/score-area-screenshot.jpg) 
 </details> 
 <br> 
 
@@ -392,13 +400,13 @@ Testing was carried out by project developer using every device at his disposal,
     - Max responsive screen size tested - 2560px
 ### Performance
 - Performance tested using Chrome Lighthouse extension.
-    - Lower performance scores mainly due to image file type, size and embedded maps from Google
+    - All areas over scored over 90. 
 <details>
   <summary>Performance results</summary>
 
 - Landing page:
 
-   ![Landing page](https:/###add landing page performance result snip)
+   ![Landing page](https://github.com/SkyForgerUK/Project_2_RPSSL/blob/main/docs/lighthouse.jpg)
 </details>
 
 <br >
