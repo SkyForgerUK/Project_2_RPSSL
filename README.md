@@ -389,7 +389,7 @@ Testing was carried out by project developer using every device at his disposal,
 ## Credits
 ### Content
 - All content created by the project developer, except of:
-  - For JS code for modal pop-up button a video from YouTube user "Web Dev Simplified" was followed [YouTube](https://www.youtube.com/watch?v=MBaw_6cPmAw&t=1s)
+  - For JS code for modal pop-up button a video from YouTube user ["Web Dev Simplified"](https://www.youtube.com/watch?v=MBaw_6cPmAw&t=1s) was followed
 - Fonts 'Silkscreen' and 'Peralta' where taken from [Google Fonts](https://fonts.google.com/)
 - For help with the code [w3schools](https://www.w3schools.com/) was used 
 ### Media
